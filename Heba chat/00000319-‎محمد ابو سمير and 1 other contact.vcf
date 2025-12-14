@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;محمد ابو سمير;;;
+FN:محمد ابو سمير
+TEL;type=CELL;type=VOICE;waid=963938837996:+963 938 837 996
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;محمد كب ;;;
+FN:محمد كب 
+TEL;type=CELL;type=VOICE;waid=963938837996:+963 938 837 996
+END:VCARD

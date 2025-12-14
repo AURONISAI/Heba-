@@ -1,0 +1,16 @@
+BEGIN:VCARD
+VERSION:3.0
+N:;Heba;;;
+FN:Heba
+TEL;type=CELL;type=VOICE;waid=46702912130:+46 70 291 21 30
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:;اهبة;;;
+FN:اهبة
+TEL;type=CELL;type=VOICE;waid=46702912130:+46 70 291 21 30
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:هبه;ماما;;;
+FN:ماما هبه
+TEL;type=CELL;type=VOICE;waid=46702912130:+46 70 291 21 30
+END:VCARD

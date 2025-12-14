@@ -1,0 +1,40 @@
+# Page 16: Bank Norwegian Statement (2024-06 to 2024-07)
+
+**Bank Norwegian**
+
+## Transaction List
+
+| Datum | Beskrivning | Belopp |
+|:------|:------------|:-------|
+| 2024-07-19 | OOB ARBOGA 18 | 258.50 |
+| 2024-07-17 | POPS | 252.50 |
+| 2024-07-15 | Ränta (Interest) | 68.20 |
+| 2024-07-16 | LEOS ESKILSTUNA | 68.00 |
+| 2024-07-16 | LEOS ESKILSTUNA | 94.00 |
+| 2024-07-16 | LEOS ESKILSTUNA | 85.00 |
+| 2024-07-16 | LEOS ESKILSTUNA | 98.00 |
+| 2024-07-16 | LEOSLEKLAND.SE | 585.00 |
+| 2024-07-15 | PREEM | 402.74 |
+| 2024-07-13 | LIDL 159 ARBOGA | 153.66 |
+| 2024-07-11 | LIDL 159 ARBOGA | 205.93 |
+| 2024-07-09 | ICA SUPERMARKET ASPLUNDS | 114.95 |
+| 2024-07-09 | LIDL 159 ARBOGA | 25.00 |
+| 2024-07-08 | MELLANOSTERNS MEJERI | 846.28 |
+| 2024-07-01 | SHAWERMA SHAM AKTIEBOL | 180.00 |
+| 2024-07-01 | SHAWERMA SHAM AKTIEBOL | 645.00 |
+| 2024-06-28 | ATILGAN ECZANESI | 50.53 |
+| 2024-06-27 | ALTINYAKA KONYAALTI-2 | 1,057.50 |
+| 2024-06-24 | **Från HEBA ALHUSSIEN** | **300.00** |
+
+---
+
+## 🔴 DEFENSE NOTES
+
+### Key Transaction:
+- 2024-06-24: 300 SEK from Heba Alhussien (small amount)
+
+### Observations:
+- Regular spending on groceries, fuel, restaurants
+- Some transactions in Turkey (ATILGAN ECZANESI, ALTINYAKA KONYAALTI) - travel?
+- Kids' activities (LEOS ESKILSTUNA - amusement park)
+- This shows normal family spending, not business transactions

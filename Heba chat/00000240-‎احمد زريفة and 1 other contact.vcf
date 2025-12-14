@@ -1,0 +1,11 @@
+BEGIN:VCARD
+VERSION:3.0
+N:زريفة;احمد;;;
+FN:احمد زريفة
+TEL;type=Mobile;waid=96171297650:+961 71 297 650
+END:VCARD_$!<VCard-Separator>!$_BEGIN:VCARD
+VERSION:3.0
+N:سوري;احمد;زريفة;;
+FN:احمد زريفة سوري
+TEL;type=Mobile;waid=963967530372:+963 967 530 372
+END:VCARD
