@@ -1,82 +1,92 @@
-# Legal Case: T 4438-25 - DEFENSE FILE
+# Mål T 4438-25 – Eskilstuna Tingsrätt
 
-## ⚠️ IMPORTANT: THIS IS A DEFENSE FILE
-**We are the DEFENDANTS in this case**
+## Rättsfall: Heba Alhussien vs Mohammad Sami Alsharef & Joumana Alnablsi
 
-## Case Overview
-- **Court:** Eskilstuna Tingsrätt (Rotel 2:04)
-- **Case Number:** T 4438-25
-- **Case Type:** Fordran (Debt Claim)
-- **Filing Date:** 2025-11-04
-- **Summons Issued:** 2025-12-04
-- **⏰ Response Deadline:** 14 days from receipt of summons
+**Status: PÅGÅENDE – ATTACK MODE**
 
 ---
 
-## Parties
+### Viktiga datum
 
-### Plaintiff (Kärande) - OPPOSING PARTY
-- **Name:** Heba Alhussien
-- **Personal ID:** 19890412-1244
-- **Address:** Västermovägen 10 c, 732 49 Arboga
-
-### Plaintiff's Legal Representative
-- **Name:** Advokat Mayssam Baaken
-- **Firm:** Advokatbyrån Baaken AB
-- **Address:** Drottninggatan 11, 252 21 Helsingborg
-
-### Defendants (Svaranden) - THIS IS US
-1. **Mohammad Sami Alsharief (Alsharef)**
-   - Personal ID: 19860217-5070
-   - Address: Esbjergsgatan 1 Lgh 1302, 632 30 Eskilstuna
-
-2. **Joumana Alnablsi**
-   - Personal ID: 19880102-5084
-   - Address: Esbjergsgatan 1 Lgh 1302, 632 30 Eskilstuna
+| Datum | Händelse |
+|-------|----------|
+| 2025-12-14 | Svaromål inlämnat |
+| 2026-02-16 | Första muntliga förberedelse ✅ |
+| **2026-03-20** | **FRIST: Ny bevisning + auktoriserade översättningar** |
+| **2026-05-18** | **Nästa förhandling** |
 
 ---
 
-## Claims Against Us
+### Sammanfattning
 
-| Claim | Amount | Alleged Due Date |
-|:------|:-------|:-----------------|
-| 1 | 350,395 SEK + interest | May 31, 2024 |
-| 2 | 30,000 SEK + ref. interest | May 31, 2024 |
-| 3 | 100,000 SEK + interest | December 31, 2025 |
-| **Total Principal** | **480,395 SEK** | |
-| Interest claimed | ~61,240 SEK | |
+Heba Alhussien (kärande) stämmer Mohammad och Joumana på ~541 118 kr och påstår att det rör sig om lån. 
 
----
+**Sanningen:** Heba bedrev illegal hawala-verksamhet (penningväxling mellan Sverige och Syrien). Stämningen är hämnd efter att Mohammad blockerade henne.
 
-## Critical Evidence Review
+### Vår strategi
 
-### Evidence AGAINST Us (Problematic)
-| Bilaga | Content | Risk Level |
-|:-------|:--------|:-----------|
-| 3 | Handwritten note: 363,729 SEK + 1000$ | ⚠️ HIGH |
-| 5 | WhatsApp: Transfer with message "Lån" (Loan) | ⚠️ HIGH |
-| 6 | WhatsApp: Mohammad says "I'll pay installment" | ⚠️ HIGH |
-| 4 | WhatsApp: "Don't forget to pay to Joumana" | ⚠️ MEDIUM |
+1. **BESTRID ALLT** – inga lån existerar, det var hawala
+2. **GENKÄROMÅL** – Heba är skyldig Mohammad 35 000 kr (hennes eget erkännande)
+3. **Abu Mohammad-bevisning** – visar Hebas professionella penningväxlingsverksamhet
+4. **Trovärdighetattack** – falsk våldtäktsanmälan avfärdad av polisen
 
 ---
 
-## Folder Structure
-```
-Case T 4438-25/
-├── 01_Court_Documents/      # Plaintiff's filings & court documents
-├── 02_Evidence_Bilagor/     # Plaintiff's evidence
-├── 03_Extracted_Text/       # OCR extracted text
-├── 04_Correspondence/       # WhatsApp conversations
-├── 05_Financial_Records/    # Bank statements & calculations
-├── 06_Analysis_Notes/       # Defense analysis & strategy
-├── 07_Timeline/             # Chronological events
-└── 08_Defense_Response/     # OUR response documents
-```
+### Bevisning
+
+| Nr | Bevis | Bevisar |
+|----|-------|---------|
+| B1 | WhatsApp 29 dec 2024 – Hebas skulderkännande | Heba skyldig Mohammad 35 000 kr |
+| B2 | WhatsApp okt 2024 – "60 000 kr" | Heba skyldig 60 000 kr |
+| B3 | WhatsApp juni 2023 – bokföring $8 852 | Hebas egen bokföring visar skuld |
+| B4 | WhatsApp jan 2023 – Swish-återbetalning | 30 000 kr till Joumana återbetalades |
+| B5 | Polisens nedläggningsbeslut | Falsk våldtäktsanmälan |
+| B6 | Abu Mohammad – dollarväxlingar | Professionell hawala |
+| B7 | Abu Mohammad – syriska pund (11,5M SYP) | Stora transaktioner |
+| B8 | Abu Mohammad – USDT/krypto | Kryptovalutahandel |
+| B9 | Abu Mohammad – Klarna/Nordea-fakturor | Systematisk betalning |
+| B10 | Abu Mohammad – ljud/foto (60+/80+) | Transaktionsbevis |
+
+### Vittnen
+
+| Nr | Vittne | Bevistema |
+|----|--------|-----------|
+| V1 | Abu Mohammad (penningväxlare) | Hebas hawala-verksamhet |
+| V2 | Mohammad Sami Alsharef | Samtliga omständigheter |
+| ?? | Hebas 2 okända vittnen | Identitet ej avslöjad |
 
 ---
 
-## URGENT ACTION REQUIRED
-- [ ] Respond to court within 14 days of receiving summons
-- [ ] Consider hiring legal representation
-- [ ] Gather counter-evidence
-- [ ] Prepare written defense (svaromål)
+### Filer – PRINT_READY
+
+| Nr | Fil | Beskrivning |
+|----|-----|-------------|
+| 01 | SVAROMAL_Mohammad_Sami_Alsharef.docx | Svaromål + genkäromål (huvuddokument) |
+| 02 | SVAROMAL_Joumana_Alnablsi.docx | Joumanas svaromål |
+| 03 | FULLMAKT_Joumana_till_Mohammad.docx | Rättegångsfullmakt |
+| 04 | BEVISUPPGIFT_WhatsApp_FIXED.docx | WhatsApp-bevisning B1-B10 |
+| 05 | NYCKELBEVIS_Hebas_Skulderkannande_FIXED.docx | Smoking gun – B1 |
+| 07 | YTTRANDE_NY_BEVISNING.docx | Formell inlaga om ny bevisning |
+| 08 | GENKAROMAL_35000kr.docx | Genkäromål (separat dokument) |
+
+### Övrigt
+
+| Fil | Beskrivning |
+|-----|-------------|
+| COURT_UPDATE_18_MAY_2026.md | Strategi inför 18 maj |
+| TODO_URGENT_20_MARS.md | Brådskande uppgifter före 20 mars |
+| LEGAL_CASE_ANALYSIS_FOR_LAWYER.md | Komplett juridisk analys |
+
+---
+
+### BRÅDSKANDE (före 20 mars 2026)
+
+- [ ] Beställ auktoriserade översättningar av all arabisk bevisning
+- [ ] Kontakta Abu Mohammad – vittnesutsaga
+- [ ] Identifiera Hebas 2 vittnen
+- [ ] Lämna in yttrande + genkäromål till tingsrätten
+- [ ] Betala översättningskostnad (~15 000–25 000 kr)
+
+---
+
+*Senast uppdaterad: 2026-02-16 (efter första muntliga förberedelse)*
