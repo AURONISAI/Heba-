@@ -113,10 +113,15 @@ Heba har åberopat 2 nya vittnen.
 
 ### Offensiva åtgärder:
 
-**A. Genkäromål mot Heba:**
-- Kräv tillbaka minst 35 000 kr (hennes eget erkännande)
-- Skadestånd för falsk stämning
-- Rättegångskostnader
+**A. Genkäromål mot Heba (150 000 kr):**
+
+| Post | Belopp | Rättslig grund |
+|------|--------|----------------|
+| Hebas skuld (erkännande) | 35 000 kr | Ensidigt skulderkännande 2024-12-29 |
+| Kränkningsersättning (falsk våldtäktsanmälan) | 50 000 kr | 2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse) |
+| Skadestånd (rättegångsmissbruk / falsk stämning) | 40 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga) |
+| Ekonomisk skada (översättning, arbetstid m.m.) | 25 000 kr | 2 kap 2 § SkL |
+| **TOTALT** | **150 000 kr** | **+ ränta + rättegångskostnader** |
 
 **B. Överväg polisanmälan:**
 - Olaglig penningöverföringsverksamhet (hawala utan tillstånd)
@@ -191,8 +196,12 @@ Heba har:
 
 Vi kräver:
 - **Fullständig ogillande av hela stämningen**
-- **Heba betalar SAMTLIGA rättegångskostnader**
-- **Genkäromål: minst 35 000 kr + skadestånd**
+- **Heba betalar SAMTLIGA rättegångskostnader** (18 kap RB)
+- **Genkäromål: 150 000 kr + ränta + rättegångskostnader**
+  - 35 000 kr skuld
+  - 50 000 kr kränkningsersättning (falsk våldtäkt)
+  - 40 000 kr skadestånd (falsk stämning)
+  - 25 000 kr ekonomisk skada
 
 ---
 

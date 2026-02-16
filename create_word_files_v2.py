@@ -147,10 +147,41 @@ def create_svaromal_mohammad():
     doc.add_paragraph('2. Heba förpliktas att ersätta Mohammad och Joumanas rättegångskostnader', style='List Number')
     
     doc.add_paragraph()
-    doc.add_heading('Genkäromål', level=2)
-    doc.add_paragraph('Mohammad yrkar i genkäromål att:')
-    doc.add_paragraph('1. Heba Alhussien förpliktas att betala 35 000 kr jämte ränta till Mohammad Sami Alsharef, enligt hennes eget skriftliga erkännande av 2024-12-29', style='List Number')
-    doc.add_paragraph('2. Heba förpliktas att ersätta rättegångskostnaderna för genkäromålet', style='List Number')
+    doc.add_heading('Genkäromål (150 000 kr)', level=2)
+    doc.add_paragraph('Mohammad yrkar i genkäromål att Heba Alhussien förpliktas att betala sammanlagt 150 000 kr till Mohammad Sami Alsharef, fördelat enligt följande:')
+    doc.add_paragraph()
+    
+    table_gk = doc.add_table(rows=6, cols=3)
+    table_gk.style = 'Table Grid'
+    table_gk.rows[0].cells[0].text = 'Post'
+    table_gk.rows[0].cells[1].text = 'Belopp'
+    table_gk.rows[0].cells[2].text = 'Rättslig grund'
+    for cell in table_gk.rows[0].cells:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.bold = True
+    
+    gk_data = [
+        ('Hebas skuld (erkännande)', '35 000 kr', 'Ensidigt skulderkännande 2024-12-29'),
+        ('Kränkningsersättning – falsk våldtäktsanmälan', '50 000 kr', '2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse)'),
+        ('Skadestånd – rättegångsmissbruk', '40 000 kr', '2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga)'),
+        ('Ekonomisk skada', '25 000 kr', '2 kap 2 § SkL (översättning, förlorad arbetstid m.m.)'),
+        ('TOTALT', '150 000 kr', '+ ränta + rättegångskostnader'),
+    ]
+    
+    for i, (post, belopp, grund) in enumerate(gk_data, 1):
+        table_gk.rows[i].cells[0].text = post
+        table_gk.rows[i].cells[1].text = belopp
+        table_gk.rows[i].cells[2].text = grund
+        if i == 5:
+            for cell in table_gk.rows[i].cells:
+                for para in cell.paragraphs:
+                    for run in para.runs:
+                        run.bold = True
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Jämte ränta enligt 6 § räntelagen från respektive skadetillfälle till dess betalning sker.')
+    doc.add_paragraph('Heba förpliktas att ersätta samtliga rättegångskostnader i såväl käromålet som genkäromålet.')
     
     # INSTÄLLNING
     doc.add_heading('INSTÄLLNING', level=1)
@@ -398,29 +429,54 @@ def create_svaromal_mohammad():
     doc.add_paragraph('Vi hemställer att rätten överväger att avvisa kravet mot Joumana då hon inte var part i något avtal med Heba.')
     
     # GENKÄROMÅL
-    doc.add_heading('GENKÄROMÅL', level=1)
+    doc.add_heading('GENKÄROMÅL – 150 000 KR', level=1)
     
     p = doc.add_paragraph()
-    p.add_run('Mohammad framställer genkäromål mot Heba Alhussien.').bold = True
+    p.add_run('Mohammad framställer genkäromål mot Heba Alhussien på totalt 150 000 kr.').bold = True
     
     doc.add_paragraph()
-    doc.add_heading('Yrkande i genkäromålet', level=2)
-    doc.add_paragraph('Mohammad yrkar att Heba Alhussien förpliktas att till Mohammad Sami Alsharef betala 35 000 kr jämte ränta enligt 6 § räntelagen från den 29 december 2024 till dess betalning sker.')
-    
-    doc.add_heading('Grund för genkäromålet', level=2)
-    doc.add_paragraph('Den 29 december 2024 skrev Heba Alhussien i ett WhatsApp-meddelande till Mohammad:')
+    doc.add_heading('A. Fordran: 35 000 kr (Hebas skulderkännande)', level=2)
+    doc.add_paragraph('Den 29 december 2024 skrev Heba i WhatsApp:')
     
     add_arabic_with_translation(
         doc,
-        'عليي سداد دين لابو سمير 35 الف كرون . لتاريخ اليوم بشهر ديسمبر وتم دفع الرينتا من ابو سمير كاش 1800 كرون ل هبه',
-        '"Jag är skyldig Abu Sami [Mohammad] 35 000 kr. Per dagens datum i december, och hyran betalades av Abu Sami kontant 1 800 kr till Heba."'
+        'عليي سداد دين لابو سمير 35 الف كرون',
+        '"Jag är skyldig Abu Sami [Mohammad] 35 000 kr"'
     )
     
-    doc.add_paragraph('Detta meddelande utgör ett ensidigt skulderkännande. Heba har inte betalat denna skuld.')
+    doc.add_paragraph('Meddelandet utgör ett ensidigt skulderkännande. Heba har inte betalat.')
+    
+    doc.add_heading('B. Kränkningsersättning: 50 000 kr (falsk våldtäktsanmälan)', level=2)
+    doc.add_paragraph('Heba Alhussien anmälde Mohammad för våldtäkt – påstod att han våldtagit henne upprepade gånger under ~2 år. Polisen lade ned utredningen inom ~10 dagar på grund av total brist på bevis.')
+    doc.add_paragraph()
+    doc.add_paragraph('Rättslig grund:').runs[0].bold = True
+    doc.add_paragraph('Falsk tillvitelse enligt 15 kap 7 § brottsbalken – att falskeligen anklaga någon för brott inför myndighet', style='List Bullet')
+    doc.add_paragraph('Kränkningsersättning enligt 2 kap 3 § skadeståndslagen – allvarlig kränkning genom brott', style='List Bullet')
+    doc.add_paragraph('En falsk våldtäktsanmälan utgör en av de allvarligaste kränkningar en person kan utsättas för. Den skadar heder, rykte, familjerelationer och psykiskt välmående.', style='List Bullet')
+    
+    doc.add_heading('C. Skadestånd: 40 000 kr (rättegångsmissbruk)', level=2)
+    doc.add_paragraph('Heba har medvetet lämnat in en stämningsansökan med falska påståenden. Hon vet att inga lån existerat – pengarna var del av hawala-verksamhet. Ändå kräver hon 541 118 kr.')
+    doc.add_paragraph()
+    doc.add_paragraph('Rättslig grund:').runs[0].bold = True
+    doc.add_paragraph('Ren förmögenhetsskada vid brott enligt 2 kap 2 § skadeståndslagen', style='List Bullet')
+    doc.add_paragraph('Jfr osann partsutsaga enligt 15 kap 2 § brottsbalken – att under sanningsförsäkran lämna osanna uppgifter i rättegång', style='List Bullet')
+    doc.add_paragraph('Stämningen utgör ett systematiskt missbruk av rättsväsendet som vapen för personlig hämnd', style='List Bullet')
+    
+    doc.add_heading('D. Ekonomisk skada: 25 000 kr', level=2)
+    doc.add_paragraph('Mohammad har lidit direkt ekonomisk skada till följd av Hebas agerande:')
+    doc.add_paragraph('Kostnader för auktoriserade översättningar av all arabisk bevisning', style='List Bullet')
+    doc.add_paragraph('Förlorad arbetstid för att förbereda försvar', style='List Bullet')
+    doc.add_paragraph('Resekostnader till domstol', style='List Bullet')
+    doc.add_paragraph('Porto, kopiering och administration', style='List Bullet')
+    doc.add_paragraph('Rättslig grund: 2 kap 2 § skadeståndslagen (ren förmögenhetsskada).')
+    
+    doc.add_paragraph()
+    p = doc.add_paragraph()
+    p.add_run('TOTALT GENKÄROMÅL: 150 000 kr + ränta + rättegångskostnader').bold = True
     doc.add_paragraph()
     p = doc.add_paragraph()
     p.add_run('Bevisning: ').bold = True
-    p.add_run('B1 (WhatsApp-meddelande 2024-12-29) med auktoriserad översättning.')
+    p.add_run('B1 (skulderkännande), B5 (polisens nedläggningsbeslut), B6–B10 (Abu Mohammad, hawala-bevis), partsutsaga.')
     
     # SAMMANFATTNING
     doc.add_heading('SAMMANFATTNING', level=1)
@@ -443,7 +499,7 @@ def create_svaromal_mohammad():
     doc.add_paragraph('Dolt sin egen hawala-verksamhet', style='List Bullet')
     doc.add_paragraph('Vägrat erkänna sin egen skuld på 35 000 kr', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('Vi begär att rätten avslår käromålet i sin helhet och bifaller genkäromålet.')
+    doc.add_paragraph('Vi begär att rätten avslår käromålet i sin helhet och bifaller genkäromålet på 150 000 kr jämte ränta och rättegångskostnader.')
     
     # Signature
     doc.add_paragraph()
@@ -1137,8 +1193,13 @@ def create_yttrande_ny_bevisning():
     doc.add_paragraph('Att Heba använde sitt svenska konto för internationella transaktioner', style='List Bullet')
     
     # GENKÄROMÅL
-    doc.add_heading('3. Genkäromål – 35 000 kr', level=2)
-    doc.add_paragraph('Mohammad framställer genkäromål avseende 35 000 kr baserat på Hebas skulderkännande (B1) av den 29 december 2024.')
+    doc.add_heading('3. Genkäromål – 150 000 kr', level=2)
+    doc.add_paragraph('Mohammad framställer genkäromål mot Heba Alhussien på totalt 150 000 kr:')
+    doc.add_paragraph('35 000 kr – Hebas skuld (skulderkännande 2024-12-29)', style='List Bullet')
+    doc.add_paragraph('50 000 kr – Kränkningsersättning för falsk våldtäktsanmälan (2 kap 3 § SkL, BrB 15:7)', style='List Bullet')
+    doc.add_paragraph('40 000 kr – Skadestånd för rättegångsmissbruk (2 kap 2 § SkL, jfr BrB 15:2)', style='List Bullet')
+    doc.add_paragraph('25 000 kr – Ekonomisk skada (översättningskostnader, förlorad arbetstid m.m.)', style='List Bullet')
+    doc.add_paragraph('Se separat genkäromålsinlaga (08_GENKAROMAL_150000kr.docx) för fullständiga grunder och rättsliga hänvisningar.')
     
     # ANGÅENDE KÄRANDENS VITTNEN
     doc.add_heading('ANGÅENDE KÄRANDENS VITTNEN', level=1)
@@ -1173,7 +1234,7 @@ def create_yttrande_ny_bevisning():
 # 7. GENKÄROMÅL (NEW DOCUMENT)
 # =============================================================================
 def create_genkaromal():
-    """Create formal counterclaim document"""
+    """Create formal counterclaim document - 150 000 kr"""
     doc = setup_doc()
     
     title = doc.add_heading('GENKÄROMÅL', 0)
@@ -1183,6 +1244,11 @@ def create_genkaromal():
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     subtitle.runs[0].bold = True
     subtitle.runs[0].font.size = Pt(14)
+    
+    p = doc.add_paragraph('Totalt krav: 150 000 kr + ränta + rättegångskostnader')
+    p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+    p.runs[0].bold = True
+    p.runs[0].font.size = Pt(12)
     
     doc.add_paragraph()
     
@@ -1205,24 +1271,50 @@ def create_genkaromal():
     # YRKANDE
     doc.add_heading('YRKANDE', level=1)
     
-    doc.add_paragraph('Mohammad Sami Alsharef yrkar att Heba Alhussien förpliktas att:')
+    p = doc.add_paragraph()
+    p.add_run('Mohammad Sami Alsharef yrkar att Heba Alhussien förpliktas att betala sammanlagt 150 000 kr till Mohammad Sami Alsharef, fördelat enligt följande:').bold = True
     doc.add_paragraph()
-    p = doc.add_paragraph('1. ')
-    p.add_run('Betala 35 000 kr').bold = True
-    p.add_run(' till Mohammad Sami Alsharef')
     
-    p = doc.add_paragraph('2. ')
-    p.add_run('Jämte ränta').bold = True
-    p.add_run(' enligt 6 § räntelagen (1975:635) från den 29 december 2024 till dess betalning sker')
+    # Yrkande table
+    table_y = doc.add_table(rows=6, cols=3)
+    table_y.style = 'Table Grid'
+    table_y.rows[0].cells[0].text = 'Post'
+    table_y.rows[0].cells[1].text = 'Belopp'
+    table_y.rows[0].cells[2].text = 'Rättslig grund'
+    for cell in table_y.rows[0].cells:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.bold = True
     
-    p = doc.add_paragraph('3. ')
-    p.add_run('Ersätta rättegångskostnaderna').bold = True
-    p.add_run(' för genkäromålet')
+    y_data = [
+        ('A. Fordran (Hebas skuld)', '35 000 kr', 'Ensidigt skulderkännande 2024-12-29'),
+        ('B. Kränkningsersättning', '50 000 kr', '2 kap 3 § SkL via BrB 15:7'),
+        ('C. Skadestånd rättegångsmissbruk', '40 000 kr', '2 kap 2 § SkL, jfr BrB 15:2'),
+        ('D. Ekonomisk skada', '25 000 kr', '2 kap 2 § SkL'),
+        ('TOTALT', '150 000 kr', '+ ränta + rättegångskostnader'),
+    ]
+    
+    for i, (post, belopp, grund) in enumerate(y_data, 1):
+        table_y.rows[i].cells[0].text = post
+        table_y.rows[i].cells[1].text = belopp
+        table_y.rows[i].cells[2].text = grund
+        if i == 5:
+            for cell in table_y.rows[i].cells:
+                for para in cell.paragraphs:
+                    for run in para.runs:
+                        run.bold = True
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Jämte ränta enligt 6 § räntelagen (1975:635) från respektive skadetillfälle till dess betalning sker.')
+    doc.add_paragraph('Heba förpliktas att ersätta samtliga rättegångskostnader.')
     
     # GRUNDER
     doc.add_heading('GRUNDER', level=1)
     
-    doc.add_paragraph('1. Den 29 december 2024 skrev Heba Alhussien följande meddelande i WhatsApp till Mohammad:')
+    # A. Fordran
+    doc.add_heading('A. Fordran: 35 000 kr', level=2)
+    
+    doc.add_paragraph('1. Den 29 december 2024 skrev Heba Alhussien följande i ett WhatsApp-meddelande till Mohammad:')
     doc.add_paragraph()
     
     add_arabic_with_translation(
@@ -1232,34 +1324,151 @@ def create_genkaromal():
     )
     
     doc.add_paragraph('2. Meddelandet utgör ett ensidigt skulderkännande. Heba erkänner att hon är skyldig Mohammad 35 000 kr.')
+    doc.add_paragraph('3. Meddelandet skrevs den 29 december 2024 – drygt 2 månader innan Heba lämnade in sin stämningsansökan.')
+    doc.add_paragraph('4. Heba har inte betalat skulden.')
+    
+    # B. Kränkningsersättning
+    doc.add_heading('B. Kränkningsersättning: 50 000 kr (falsk våldtäktsanmälan)', level=2)
+    
+    doc.add_paragraph('1. Heba Alhussien anmälde Mohammad Sami Alsharef för våldtäkt till polisen. Hon påstod att Mohammad hade våldtagit henne upprepade gånger under en period av cirka 2 år.')
     doc.add_paragraph()
-    doc.add_paragraph('3. Meddelandet skrevs den 29 december 2024 – drygt 2 månader innan Heba lämnade in sin stämningsansökan i detta mål.')
+    doc.add_paragraph('2. Polisen lade ned utredningen inom cirka 10 dagar på grund av total brist på bevis. Anmälan var uppenbart falsk.')
     doc.add_paragraph()
-    doc.add_paragraph('4. Heba har inte betalat skulden. Hon har istället lämnat in en stämningsansökan med falska påståenden om att Mohammad är skyldig henne pengar.')
+    doc.add_paragraph('3. En falsk våldtäktsanmälan utgör falsk tillvitelse enligt 15 kap 7 § brottsbalken – att falskeligen angälla någon för brott inför myndighet.')
     doc.add_paragraph()
-    doc.add_paragraph('5. Utöver skulderkännandet framgår av WhatsApp-konversationer att Mohammad betalade Hebas hyra kontant (1 800 kr), vilket ytterligare visar att penningflödet gick från Mohammad till Heba.')
+    doc.add_paragraph('4. Den som allvarligt kränker någon annan genom brott ska ersätta den skada som kränkningen innebär, enligt 2 kap 3 § skadeståndslagen (1972:207).')
+    doc.add_paragraph()
+    doc.add_paragraph('5. Mohammad har lidit allvarlig kränkning genom den falska anmälan:')
+    doc.add_paragraph('Skada på heder och rykte – att bli anmäld för våldtäkt är en av de mest stigmatiserande anklagelser som finns', style='List Bullet')
+    doc.add_paragraph('Psykiskt lidande – ångest, sömnproblem och stress under utredningen', style='List Bullet')
+    doc.add_paragraph('Påverkan på familjerelationer – barn och familj har drabbats', style='List Bullet')
+    doc.add_paragraph('Risk för dömande omvärldsreaktion – även en nedlagd utredning lämnar spår', style='List Bullet')
+    
+    doc.add_paragraph()
+    doc.add_paragraph('6. Beloppet 50 000 kr är skäligt med hänsyn till kränkningens art och Jämförbar praxis vid falska våldtäktsanmälningar.')
+    
+    # C. Rättegångsmissbruk
+    doc.add_heading('C. Skadestånd: 40 000 kr (rättegångsmissbruk / falsk stämning)', level=2)
+    
+    doc.add_paragraph('1. Heba har medvetet och lögnarktigt lämnat in en stämning på 541 118 kr baserad på påståenden som hon vet är falska.')
+    doc.add_paragraph()
+    doc.add_paragraph('2. Hon vet att inga lån existerat. Pengarna var del av en hawala-verksamhet (bevisat genom Abu Mohammad-chatten). Ändå påstår hon inför rätten att det var lån.')
+    doc.add_paragraph()
+    doc.add_paragraph('3. Hebas agerande utgör ett mönster av missbruk av rättsväsendet:')
+    doc.add_paragraph('Först: Falsk våldtäktsanmälan till polisen (nedlagd)', style='List Bullet')
+    doc.add_paragraph('Sedan: Falsk stämning på 541 118 kr till tingsrätten', style='List Bullet')
+    doc.add_paragraph('Mönstret: När en falsk anklagelse misslyckas, gör Heba en ny', style='List Bullet')
+    doc.add_paragraph()
+    doc.add_paragraph('4. Rättslig grund: Ren förmögenhetsskada vid brott enligt 2 kap 2 § skadeståndslagen. Jfr osann partsutsaga enligt 15 kap 2 § brottsbalken.')
+    doc.add_paragraph()
+    doc.add_paragraph('5. Skadan består i att Mohammad tvingats försvara sig mot en grundlös stämning, med allvarliga konsekvenser för hans ekonomi, tid och psykiska hälsa.')
+    
+    # D. Ekonomisk skada
+    doc.add_heading('D. Ekonomisk skada: 25 000 kr', level=2)
+    
+    doc.add_paragraph('Mohammad har lidit direkt ekonomisk skada till följd av Hebas agerande:')
+    doc.add_paragraph()
+    
+    table_ek = doc.add_table(rows=5, cols=2)
+    table_ek.style = 'Table Grid'
+    table_ek.rows[0].cells[0].text = 'Post'
+    table_ek.rows[0].cells[1].text = 'Uppskattad kostnad'
+    for cell in table_ek.rows[0].cells:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.bold = True
+    table_ek.rows[1].cells[0].text = 'Auktoriserade översättningar (arabiska → svenska)'
+    table_ek.rows[1].cells[1].text = '15 000 – 20 000 kr'
+    table_ek.rows[2].cells[0].text = 'Förlorad arbetstid (förberedelse, inlagor, domstol)'
+    table_ek.rows[2].cells[1].text = '5 000 – 10 000 kr'
+    table_ek.rows[3].cells[0].text = 'Resekostnader, porto, kopiering'
+    table_ek.rows[3].cells[1].text = '2 000 – 3 000 kr'
+    table_ek.rows[4].cells[0].text = 'TOTALT (yrkat)'
+    table_ek.rows[4].cells[1].text = '25 000 kr'
+    for cell in table_ek.rows[4].cells:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.bold = True
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Rättslig grund: 2 kap 2 § skadeståndslagen – ren förmögenhetsskada. Kvitton och verifikationer kan presenteras.')
+    
+    # HEBAS MÖNSTER
+    doc.add_heading('HEBAS MÖNSTER AV MISSBRUK AV RÄTTSVÄSENDET', level=1)
+    
+    doc.add_paragraph('Det är viktigt att rätten ser helhetsbilden av Hebas agerande:')
+    doc.add_paragraph()
+    
+    table_m = doc.add_table(rows=4, cols=3)
+    table_m.style = 'Table Grid'
+    table_m.rows[0].cells[0].text = 'Nr'
+    table_m.rows[0].cells[1].text = 'Hebas åtgärd'
+    table_m.rows[0].cells[2].text = 'Resultat'
+    for cell in table_m.rows[0].cells:
+        for para in cell.paragraphs:
+            for run in para.runs:
+                run.bold = True
+    table_m.rows[1].cells[0].text = '1'
+    table_m.rows[1].cells[1].text = 'Falsk våldtäktsanmälan till polisen'
+    table_m.rows[1].cells[2].text = 'Nedlagd inom ~10 dagar – total brist på bevis'
+    table_m.rows[2].cells[0].text = '2'
+    table_m.rows[2].cells[1].text = 'Falsk stämning på 541 118 kr'
+    table_m.rows[2].cells[2].text = 'Pågår – T 4438-25'
+    table_m.rows[3].cells[0].text = '3'
+    table_m.rows[3].cells[1].text = 'Allt sker EFTER att Mohammad blockerade Heba'
+    table_m.rows[3].cells[2].text = 'Visar hämndmotiv'
+    
+    doc.add_paragraph()
+    p = doc.add_paragraph()
+    p.add_run('Heba använder rättsväsendet som vapen. När en falsk anklagelse misslyckas, gör hon en ny. Detta mönster ska få konsekvenser.').bold = True
     
     # BEVISNING
     doc.add_heading('BEVISNING', level=1)
     
     doc.add_paragraph('Skriftlig bevisning:').runs[0].bold = True
     
-    table = doc.add_table(rows=3, cols=3)
-    table.style = 'Table Grid'
-    table.rows[0].cells[0].text = 'Nr'
-    table.rows[0].cells[1].text = 'Bevis'
-    table.rows[0].cells[2].text = 'Bevisar'
-    for cell in table.rows[0].cells:
+    table_b = doc.add_table(rows=6, cols=3)
+    table_b.style = 'Table Grid'
+    table_b.rows[0].cells[0].text = 'Nr'
+    table_b.rows[0].cells[1].text = 'Bevis'
+    table_b.rows[0].cells[2].text = 'Bevisar'
+    for cell in table_b.rows[0].cells:
         for para in cell.paragraphs:
             for run in para.runs:
                 run.bold = True
     
-    table.rows[1].cells[0].text = 'B1'
-    table.rows[1].cells[1].text = 'WhatsApp 2024-12-29 med auktoriserad översättning'
-    table.rows[1].cells[2].text = 'Hebas skulderkännande: 35 000 kr'
-    table.rows[2].cells[0].text = 'V2'
-    table.rows[2].cells[1].text = 'Mohammad Sami Alsharef (partsutsaga)'
-    table.rows[2].cells[2].text = 'Omständigheterna kring skulden och Hebas erkännande'
+    b_data = [
+        ('B1', 'WhatsApp 2024-12-29 (auktoriserad översättning)', 'Hebas skulderkännande: 35 000 kr'),
+        ('B5', 'Polisens nedläggningsbeslut', 'Falsk våldtäktsanmälan → kränkningsersättning'),
+        ('B6–B10', 'Abu Mohammad-chatten (518 meddelanden)', 'Hawala-verksamhet → stämningen är falsk'),
+        ('Kvitton', 'Översättningskostnader, resekostnader m.m.', 'Ekonomisk skada: 25 000 kr'),
+        ('V2', 'Mohammad Sami Alsharef (partsutsaga)', 'Samtliga omständigheter'),
+    ]
+    
+    for i, (nr, bevis, bevisar) in enumerate(b_data, 1):
+        table_b.rows[i].cells[0].text = nr
+        table_b.rows[i].cells[1].text = bevis
+        table_b.rows[i].cells[2].text = bevisar
+    
+    # RÄTTSLIGA GRUNDER SAMMANFATTNING
+    doc.add_heading('RÄTTSLIGA GRUNDER – SAMMANFATTNING', level=1)
+    
+    doc.add_paragraph('Skadeståndslagen (1972:207):').runs[0].bold = True
+    doc.add_paragraph('2 kap 2 § – Ren förmögenhetsskada orsakad genom brott', style='List Bullet')
+    doc.add_paragraph('2 kap 3 § – Kränkningsersättning vid allvarlig kränkning genom brott', style='List Bullet')
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Brottsbalken:').runs[0].bold = True
+    doc.add_paragraph('15 kap 7 § – Falsk tillvitelse (falskeligen anklaga någon för brott inför myndighet)', style='List Bullet')
+    doc.add_paragraph('15 kap 2 § – Osann partsutsaga (lämna osanna uppgifter i rättegång)', style='List Bullet')
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Räntelagen (1975:635):').runs[0].bold = True
+    doc.add_paragraph('6 § – Ränta från respektive skadetillfälle', style='List Bullet')
+    
+    doc.add_paragraph()
+    doc.add_paragraph('Rättegångsbalken:').runs[0].bold = True
+    doc.add_paragraph('18 kap – Rättegångskostnader (förlorande part ersätter vinnande parts kostnader)', style='List Bullet')
     
     # Signature
     doc.add_paragraph()
@@ -1273,7 +1482,7 @@ def create_genkaromal():
     doc.add_paragraph('_______________________________________')
     doc.add_paragraph('(Underskrift)')
     
-    filepath = os.path.join(output_folder, '08_GENKAROMAL_35000kr.docx')
+    filepath = os.path.join(output_folder, '08_GENKAROMAL_150000kr.docx')
     doc.save(filepath)
     print(f"✅ Created: {filepath}")
     return filepath
@@ -1312,7 +1521,7 @@ if __name__ == "__main__":
     print("4. 04_BEVISUPPGIFT       - Updated with B6-B10 Abu Mohammad evidence")
     print("5. 05_NYCKELBEVIS        - Updated with genkäromål reference")
     print("6. 07_YTTRANDE           - NEW: Formal submission about new evidence")
-    print("7. 08_GENKAROMAL         - NEW: Formal counterclaim 35 000 kr")
+    print("7. 08_GENKAROMAL         - Formal counterclaim 150 000 kr")
     print()
     print("NEXT STEPS:")
     print("- Get authorized translations before 2026-03-20")

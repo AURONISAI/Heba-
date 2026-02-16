@@ -51,7 +51,7 @@
 - [ ] ✅ Alla översättningar klara och kontrollerade
 - [ ] 📝 Yttrande till rätten färdigskrivet (se fil: 03_YTTRANDE_NY_BEVISNING.md)
 - [ ] 📋 Alla bilagor numrerade, sorterade och kopierade (3 exemplar)
-- [ ] 📋 Genkäromål formulerat (35 000 kr + skadestånd)
+- [ ] 📋 Genkäromål formulerat (150 000 kr: skuld 35 tkr + kränkning 50 tkr + rättegångsmissbruk 40 tkr + ekonomisk skada 25 tkr)
 
 ---
 

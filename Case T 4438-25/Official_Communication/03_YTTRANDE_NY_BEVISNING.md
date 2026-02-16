@@ -108,13 +108,19 @@ Svarandena vidhåller sina yrkanden:
 
 ### Genkäromål
 
-Svarandena framställer härmed genkäromål mot käranden:
+Svarandena framställer härmed genkäromål mot käranden på **totalt 150 000 kr**:
 
-1. **Käranden förpliktas att till svarande 1 betala 35 000 kr** jämte ränta enligt 6 § räntelagen från den 29 december 2024 till dess betalning sker.
+| Post | Belopp | Rättslig grund |
+|------|--------|----------------|
+| A. Hebas skuld | 35 000 kr | Ensidigt skulderkännande (B1) 2024-12-29 |
+| B. Kränkningsersättning (falsk våldtäktsanmälan) | 50 000 kr | 2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse) |
+| C. Skadestånd (rättegångsmissbruk / falsk stämning) | 40 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga) |
+| D. Ekonomisk skada (översättning, arbetstid m.m.) | 25 000 kr | 2 kap 2 § SkL (ren förmögenhetsskada) |
+| **TOTALT** | **150 000 kr** | **+ ränta enl. 6 § räntelagen + rättegångskostnader** |
 
-   *Grund: Käranden har i WhatsApp-meddelande den 29 december 2024 skriftligen erkänt att hon är skyldig Mohammad Sami Alsharef ("Abu Sami") 35 000 kronor.*
+Heba Alhussien har systematiskt missbrukat rättsväsendet: först en falsk våldtäktsanmälan (nedlagd inom ~10 dagar), sedan denna falska stämning. Mohammad har lidit allvarlig kränkning, ekonomisk skada och psykiskt lidande.
 
-2. Svarandena förbehåller sig rätten att utöka genkäromålet med ytterligare krav avseende skadestånd.
+2. Svarandena förbehåller sig rätten att utöka genkäromålet med ytterligare krav.
 
 ---
 
