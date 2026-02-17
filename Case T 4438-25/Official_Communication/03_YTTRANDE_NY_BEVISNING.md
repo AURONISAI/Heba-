@@ -1,4 +1,4 @@
-# YTTRANDE MED NY BEVISUPPGIFT
+# YTTRANDE MED NY BEVISUPPGIFT (SLUTLIG)
 ## Mål T 4438-25 – Eskilstuna Tingsrätt, Rotel 2:04
 
 **Till:** Eskilstuna Tingsrätt, Rotel 2:04, 631 86 Eskilstuna
@@ -14,87 +14,54 @@
 
 ## 1. Inställning
 
-Svarandena vidhåller sitt bestridande av käromålet i sin helhet.
+Svarandena vidhåller sitt bestridande av käromålet i sin helhet. Ingen förlikning accepteras.
 
 ---
 
-## 2. Yttrande över kärandens vittnen
+## 2. Ny bevisning (B6–B10)
 
-Käranden åberopade två vittnen vid förhandlingen 16 februari 2026. Svarandena:
+WhatsApp-konversation Heba ↔ Abu Mohammad (صراف), dec 2023–sept 2024. 518 meddelanden, 60+ ljud, 80+ foton, 15+ PDF.
 
-a) Bestrider att vittnena kan ha relevant kunskap – inga lån har existerat, transaktionerna var hawala.
-b) Begär att käranden preciserar bevistema per vittne (35 kap 7 § RB).
-c) Förbehåller sig rätten att ställa motfrågor.
+**Bevistema:** Heba bedrev systematisk hawala med professionella penningväxlare. Påstådda "lån" var del av denna verksamhet. Identiskt mönster som med Mohammad.
 
----
+## 3. Vittne
 
-## 3. Ny bevisning
+**Abu Mohammad** – ska höras om hawala-systemet, Hebas roll, att pengarna var överföringar.
 
-### 3.1 Abu Mohammad – nyckelperson
+## 4. Kärandens vittnen
 
-Professionell penningväxlare ("ابو محمد صراف") som opererade samma hawala-system som Heba. WhatsApp 518 meddelanden (dec 2023–sept 2024) visar:
+Heba åberopade 2 vittnen (16 feb 2026). Svarandena:
+- Begär preciserat bevistema (35 kap 7 § RB)
+- Bestrider att vittnena har relevant kunskap
+- Förbehåller sig rätten att korsförhöra
 
-1. Penningöverföringar via bank/Swish i Sverige mot betalning i Damaskus
-2. Fakturor (Klarna, Nordea) betalda för Mohammads räkning
-3. USDT/kryptovalutatransaktioner
-4. **Identiskt mönster som Heba** – hon var mellanhand, inte långivare
-
-### 3.2 Skriftlig bevisning
-
-| Nr | Bevis | Bevistema |
-|----|-------|-----------|
-| B6 | WhatsApp Abu Mohammad (518 msg, översatt) | Hawala-systemet i praktiken |
-| B7 | Röstmeddelanden (60+, transkriberade) | Penningöverföringar bekräftade |
-| B8 | Fotografier (80+) | Kvitton och transaktionsbevis |
-| B9 | PDF-fakturor (Klarna, Nordea m.fl.) | Samma betalningar som Heba |
-| B10 | Auktoriserade översättningar (B1–B9) | Rättens krav |
-
-### 3.3 Vittne
-
-**Abu Mohammad** (personuppgifter meddelas i komplettering) – ska höras om hawala-systemet, Hebas roll som mellanhand, att pengarna var överföringar, inte lån.
-
----
-
-## 4. Fullmakt
-
-Rättegångsfullmakt (original) bifogas: Joumana Alnablsi → Mohammad Sami Alsharef.
-
----
-
-## 5. Yrkanden
-
-1. **Käromålet ogillas i sin helhet**
-2. **Käranden ersätter samtliga rättegångskostnader**
-3. I andra hand: väsentlig jämkning
-
-### Genkäromål – 400 000 kr
+## 5. Genkäromål – 400 000 kr
 
 | Post | Belopp | Lagrum |
 |------|--------|--------|
-| A. Hebas skuld | 35 000 kr | Skulderkännande (B1) 2024-12-29 |
+| A. Hebas skuld | 35 000 kr | Skulderkännande (B1) |
 | B. Kränkning (falsk våldtäkt) | 150 000 kr | SkL 2:3 + BrB 15:7 |
 | C. Rättegångsmissbruk | 100 000 kr | SkL 2:2 + BrB 15:2 |
 | D. Ekonomisk skada | 75 000 kr | SkL 2:2 |
 | E. Sveda och värk | 40 000 kr | SkL 5:1 |
 | **Totalt** | **400 000 kr** | **+ ränta (6 § räntelagen) + rättegångskostnader** |
 
-Heba har systematiskt missbrukat rättsväsendet: falsk våldtäktsanmälan (nedlagd ~10 dagar) → falsk stämning. Svarandena förbehåller sig rätten att utöka genkäromålet.
+Se separat genkäromålsinlaga (08_GENKAROMAL_400000kr.docx).
 
 ---
 
 ## 6. Sammanfattning
 
-1. **Inget låneavtal existerar** – alla transaktioner var hawala
-2. **Abu Mohammad-bevisningen** visar att samma system användes med flera personer
-3. **Käranden erkände skuld** – 35 000 kr (29 dec 2024)
-4. **Kärandens trovärdighet skadad** – falsk våldtäktsanmälan avfärdad
-5. **Käromålet är rättegångsmissbruk** – hämndaktion
+1. **Inget lån** – alla transaktioner var hawala (Abu Mohammad bevisar)
+2. **Heba erkände skuld** – 35 000 kr (29 dec 2024)
+3. **Trovärdighet skadad** – falsk våldtäktsanmälan avfärdad
+4. **Käromålet = rättegångsmissbruk** – hämndaktion
 
 ---
 
 Eskilstuna den ______________ 2026
 
 **Mohammad Sami Alsharef** | Näshultagatan 12, 632 29 Eskilstuna | 0720147440 | info@samisjackets.com
-*(Även ombud för Joumana Alnablsi enligt bifogad fullmakt)*
+*(Ombud för Joumana Alnablsi enligt bifogad fullmakt)*
 
-**Bilagor:** 1. Fullmakt (original) 2. B6 WhatsApp Abu Mohammad 3. B7 Röstmeddelanden 4. B8 Fotografier 5. B9 PDF-fakturor 6. B10 Auktoriserade översättningar
+**Bilagor:** 1. Fullmakt (original) 2. B6–B10 med auktoriserade översättningar 3. Vittnesuppgift Abu Mohammad

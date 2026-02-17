@@ -1,9 +1,9 @@
 """
-Create Word documents for court submission - UPDATED AFTER FIRST HEARING
+Create Word documents for court submission - FINAL for huvudförhandling 2026-05-18
 Case T 4438-25 - Eskilstuna Tingsrätt
-Updated: 2026-02-16 (after first court hearing)
-Next hearing: 2026-05-18
-Evidence deadline: 2026-03-20
+First hearing: 2026-02-16
+Evidence submitted: 2026-03-20
+Huvudförhandling: 2026-05-18
 """
 
 from docx import Document
@@ -77,10 +77,10 @@ def setup_doc():
 
 
 # =============================================================================
-# 1. SVAROMÅL - MOHAMMAD (UPDATED)
+# 1. SVAROMÅL - MOHAMMAD (FINAL)
 # =============================================================================
 def create_svaromal_mohammad():
-    """Create Mohammad's Svaromål - UPDATED after first hearing 2026-02-16"""
+    """Create Mohammad's Svaromål - FINAL for huvudförhandling 2026-05-18"""
     doc = setup_doc()
     
     # Title
@@ -92,7 +92,7 @@ def create_svaromal_mohammad():
     subtitle.runs[0].bold = True
     subtitle.runs[0].font.size = Pt(14)
     
-    p = doc.add_paragraph('Uppdaterad inlaga efter muntlig förberedelse 2026-02-16')
+    p = doc.add_paragraph('Slutlig inlaga inför huvudförhandling 2026-05-18')
     p.alignment = WD_ALIGN_PARAGRAPH.CENTER
     p.runs[0].font.size = Pt(10)
     p.runs[0].italic = True
@@ -103,7 +103,7 @@ def create_svaromal_mohammad():
     doc.add_paragraph('Till:')
     doc.add_paragraph('Eskilstuna Tingsrätt\nRotel 2:04\n631 86 Eskilstuna')
     doc.add_paragraph()
-    doc.add_paragraph('Datum: 2026-02-16')
+    doc.add_paragraph('Datum: 2026-05-18')
     
     # PARTIES
     doc.add_heading('PARTER', level=1)
@@ -124,7 +124,7 @@ def create_svaromal_mohammad():
     # PROCESSHISTORIK
     doc.add_heading('PROCESSHISTORIK', level=1)
     
-    table_proc = doc.add_table(rows=5, cols=2)
+    table_proc = doc.add_table(rows=6, cols=2)
     table_proc.style = 'Table Grid'
     table_proc.rows[0].cells[0].text = 'Stämning mottagen'
     table_proc.rows[0].cells[1].text = '2025 (exakt datum i handlingar)'
@@ -134,8 +134,10 @@ def create_svaromal_mohammad():
     table_proc.rows[2].cells[1].text = '2026-02-16'
     table_proc.rows[3].cells[0].text = 'Frist för ny bevisning'
     table_proc.rows[3].cells[1].text = '2026-03-20'
-    table_proc.rows[4].cells[0].text = 'Nästa förhandling'
-    table_proc.rows[4].cells[1].text = '2026-05-18'
+    table_proc.rows[4].cells[0].text = 'Bevisning inlämnad'
+    table_proc.rows[4].cells[1].text = '2026-03-20'
+    table_proc.rows[5].cells[0].text = 'Huvudförhandling'
+    table_proc.rows[5].cells[1].text = '2026-05-18'
     
     doc.add_paragraph()
     
@@ -341,7 +343,7 @@ def create_svaromal_mohammad():
     # BEVISNING
     doc.add_heading('BEVISNING', level=1)
     
-    doc.add_paragraph('OBS: All arabisk bevisning kommer att förses med auktoriserad översättning enligt rättens instruktioner från 2026-02-16.').runs[0].italic = True
+    doc.add_paragraph('Auktoriserade översättningar av all arabisk bevisning har bifogats i enlighet med rättens instruktioner från 2026-02-16.').runs[0].italic = True
     doc.add_paragraph()
     
     doc.add_paragraph('Skriftlig bevisning:').runs[0].bold = True
@@ -401,7 +403,7 @@ def create_svaromal_mohammad():
     p.add_run('Heba har uppgett 2 vittnen vars identitet ännu inte avslöjats. Vi förbehåller oss rätten att bemöta deras vittnesmål.')
     
     doc.add_paragraph()
-    doc.add_paragraph('Mohammad och Joumana förbehåller sig rätten att åberopa ytterligare bevisning före fristen 2026-03-20.')
+    doc.add_paragraph('All bevisning har inlämnats inom fristen 2026-03-20.')
     
     # SÄRSKILT OM JOUMANA
     doc.add_heading('SÄRSKILT OM JOUMANA ALNABLSI', level=1)
@@ -503,7 +505,7 @@ def create_svaromal_mohammad():
     
     # Signature
     doc.add_paragraph()
-    doc.add_paragraph('Eskilstuna den 2026-02-16')
+    doc.add_paragraph('Eskilstuna den 2026-05-18')
     doc.add_paragraph()
     
     p = doc.add_paragraph()
@@ -527,10 +529,10 @@ def create_svaromal_mohammad():
 
 
 # =============================================================================
-# 2. SVAROMÅL - JOUMANA (UPDATED)
+# 2. SVAROMÅL - JOUMANA (FINAL)
 # =============================================================================
 def create_svaromal_joumana():
-    """Create Joumana's Svaromål - UPDATED"""
+    """Create Joumana's Svaromål - FINAL"""
     doc = setup_doc()
     
     title = doc.add_heading('SVAROMÅL', 0)
@@ -546,7 +548,7 @@ def create_svaromal_joumana():
     doc.add_paragraph('Till:')
     doc.add_paragraph('Eskilstuna Tingsrätt\nRotel 2:04\n631 86 Eskilstuna')
     doc.add_paragraph()
-    doc.add_paragraph('Datum: 2026-02-16')
+    doc.add_paragraph('Datum: 2026-05-18')
     
     # PARTIES
     doc.add_heading('PARTER', level=1)
@@ -618,7 +620,7 @@ def create_svaromal_joumana():
     # Signature
     doc.add_paragraph()
     doc.add_paragraph()
-    doc.add_paragraph('Eskilstuna den 2026-02-16')
+    doc.add_paragraph('Eskilstuna den 2026-05-18')
     doc.add_paragraph()
     
     p = doc.add_paragraph()
@@ -638,10 +640,10 @@ def create_svaromal_joumana():
 
 
 # =============================================================================
-# 3. FULLMAKT (UPDATED)
+# 3. FULLMAKT
 # =============================================================================
 def create_fullmakt():
-    """Create Fullmakt - UPDATED"""
+    """Create Fullmakt"""
     doc = setup_doc()
     
     title = doc.add_heading('FULLMAKT', 0)
@@ -774,13 +776,13 @@ def create_whatsapp_evidence():
     subtitle.alignment = WD_ALIGN_PARAGRAPH.CENTER
     subtitle.runs[0].bold = True
     
-    subtitle2 = doc.add_paragraph('Mål T 4438-25 – Uppdaterad 2026-02-16')
+    subtitle2 = doc.add_paragraph('Mål T 4438-25 – Slutlig version – huvudförhandling 2026-05-18')
     subtitle2.alignment = WD_ALIGN_PARAGRAPH.CENTER
     
     doc.add_paragraph()
     
     p = doc.add_paragraph()
-    p.add_run('OBS: Alla arabiska texter kommer att förses med auktoriserad översättning innan fristen 2026-03-20.').bold = True
+    p.add_run('Alla arabiska texter har försetts med auktoriserad översättning.').bold = True
     p.runs[0].italic = True
     
     doc.add_paragraph()
@@ -890,7 +892,7 @@ def create_whatsapp_evidence():
     doc.add_heading('B. KONVERSATION: HEBA – ABU MOHAMMAD (PENNINGVÄXLARE)', level=1)
     
     p = doc.add_paragraph()
-    p.add_run('NY BEVISNING – åberopas före fristen 2026-03-20').bold = True
+    p.add_run('BEVISNING – åberopas vid huvudförhandling 2026-05-18').bold = True
     
     doc.add_paragraph()
     
@@ -985,7 +987,7 @@ def create_whatsapp_evidence():
 
 
 # =============================================================================
-# 5. NYCKELBEVIS - Hebas skulderkännande (UPDATED)
+# 5. NYCKELBEVIS - Hebas skulderkännande (FINAL)
 # =============================================================================
 def create_key_evidence():
     """Create key evidence document - the smoking gun"""
@@ -1056,7 +1058,7 @@ def create_key_evidence():
     doc.add_paragraph()
     
     p = doc.add_paragraph()
-    p.add_run('OBS: Auktoriserad översättning kommer att bifogas före fristen 2026-03-20.').italic = True
+    p.add_run('Auktoriserad översättning bifogad.').italic = True
     
     doc.add_paragraph()
     
@@ -1115,7 +1117,7 @@ def create_key_evidence():
     # Certification
     doc.add_paragraph('Jag intygar att ovanstående är en korrekt återgivning av WhatsApp-meddelandet:')
     doc.add_paragraph()
-    doc.add_paragraph('Eskilstuna den 2026-02-16')
+    doc.add_paragraph('Eskilstuna den 2026-05-18')
     doc.add_paragraph()
     doc.add_paragraph()
     doc.add_paragraph('_______________________________________')
@@ -1147,20 +1149,21 @@ def create_yttrande_ny_bevisning():
     doc.add_paragraph('Till:')
     doc.add_paragraph('Eskilstuna Tingsrätt\nRotel 2:04\n631 86 Eskilstuna')
     doc.add_paragraph()
-    doc.add_paragraph('Datum: 2026-02-16')
-    doc.add_paragraph('Sista dag för ny bevisning: 2026-03-20')
+    doc.add_paragraph('Datum: 2026-05-18')
+    doc.add_paragraph('Bevisning inlämnad: 2026-03-20')
     
     doc.add_paragraph()
     
     # BAKGRUND
     doc.add_heading('BAKGRUND', level=1)
-    doc.add_paragraph('Vid muntlig förberedelse den 16 februari 2026 redovisades att:')
-    doc.add_paragraph('Heba Alhussien har åberopat 2 vittnen vars identitet ännu inte avslöjats', style='List Bullet')
-    doc.add_paragraph('Parterna har frist till den 20 mars 2026 att inkomma med ny bevisning', style='List Bullet')
+    doc.add_paragraph('Vid muntlig förberedelse den 16 februari 2026 beslutades att:')
+    doc.add_paragraph('Parterna hade frist till den 20 mars 2026 att inkomma med ny bevisning', style='List Bullet')
     doc.add_paragraph('All arabisk bevisning ska förses med auktoriserad översättning', style='List Bullet')
+    doc.add_paragraph('Heba Alhussien har åberopat 2 vittnen', style='List Bullet')
+    doc.add_paragraph('Huvudförhandling bestämdes till den 18 maj 2026', style='List Bullet')
     
     # NY BEVISNING
-    doc.add_heading('NY BEVISNING SOM ÅBEROPAS', level=1)
+    doc.add_heading('BEVISNING SOM ÅBEROPAS', level=1)
     
     doc.add_heading('1. Abu Mohammad-chatten (B6–B10)', level=2)
     doc.add_paragraph('WhatsApp-konversation mellan Heba och Abu Mohammad (penningväxlare/صراف), dec 2023–sep 2024.')
@@ -1202,11 +1205,11 @@ def create_yttrande_ny_bevisning():
     
     # TRANSLATION NOTE
     doc.add_heading('AUKTORISERAD ÖVERSÄTTNING', level=1)
-    doc.add_paragraph('I enlighet med rättens anvisningar förses all arabisk bevisning med auktoriserad svensk översättning före fristen 2026-03-20.')
+    doc.add_paragraph('All arabisk bevisning har försetts med auktoriserad svensk översättning och inlämnats till rätten.')
     
     # Signature
     doc.add_paragraph()
-    doc.add_paragraph('Eskilstuna den 2026-02-16')
+    doc.add_paragraph('Eskilstuna den 2026-05-18')
     doc.add_paragraph()
     
     p = doc.add_paragraph()
@@ -1226,7 +1229,7 @@ def create_yttrande_ny_bevisning():
 # 7. GENKÄROMÅL (NEW DOCUMENT)
 # =============================================================================
 def create_genkaromal():
-    """Create formal counterclaim document - 150 000 kr"""
+    """Create formal counterclaim document - 400 000 kr"""
     doc = setup_doc()
     
     title = doc.add_heading('GENKÄROMÅL', 0)
@@ -1247,7 +1250,7 @@ def create_genkaromal():
     doc.add_paragraph('Till:')
     doc.add_paragraph('Eskilstuna Tingsrätt\nRotel 2:04\n631 86 Eskilstuna')
     doc.add_paragraph()
-    doc.add_paragraph('Datum: 2026-02-16')
+    doc.add_paragraph('Datum: 2026-05-18')
     
     # PARTER
     doc.add_heading('PARTER I GENKÄROMÅLET', level=1)
@@ -1418,7 +1421,7 @@ def create_genkaromal():
     table_m.rows[2].cells[1].text = 'Falsk stämning på 541 118 kr'
     table_m.rows[2].cells[2].text = 'Pågår – T 4438-25'
     table_m.rows[3].cells[0].text = '3'
-    table_m.rows[3].cells[1].text = 'Allt sker EFTER att Mohammad blockerade Heba'
+    table_m.rows[3].cells[1].text = 'Stämningen lämnades in efter nedlagd falsk anmälan'
     table_m.rows[3].cells[2].text = 'Visar hämndmotiv'
     
     doc.add_paragraph()
@@ -1474,7 +1477,7 @@ def create_genkaromal():
     # Signature
     doc.add_paragraph()
     doc.add_paragraph()
-    doc.add_paragraph('Eskilstuna den 2026-02-16')
+    doc.add_paragraph('Eskilstuna den 2026-05-18')
     doc.add_paragraph()
     
     p = doc.add_paragraph()
@@ -1494,11 +1497,11 @@ def create_genkaromal():
 # =============================================================================
 if __name__ == "__main__":
     print("=" * 60)
-    print("CREATING WORD DOCUMENTS - UPDATED AFTER COURT HEARING")
+    print("FINAL WORD DOCUMENTS – HUVUDFÖRHANDLING 2026-05-18")
     print("Case T 4438-25 - Eskilstuna Tingsrätt")
-    print("Updated: 2026-02-16")
-    print("Next hearing: 2026-05-18")
-    print("Evidence deadline: 2026-03-20")
+    print("First hearing: 2026-02-16")
+    print("Evidence submitted: 2026-03-20")
+    print("Huvudförhandling: 2026-05-18")
     print("=" * 60)
     print()
     
@@ -1515,16 +1518,13 @@ if __name__ == "__main__":
     print(f"ALL DOCUMENTS CREATED IN: {output_folder}")
     print("=" * 60)
     print()
-    print("DOCUMENTS:")
-    print("1. 01_SVAROMAL_Mohammad  - Updated with Abu Mohammad + genkäromål")
-    print("2. 02_SVAROMAL_Joumana   - Updated dates, no settlement")
-    print("3. 03_FULLMAKT           - Updated dates")
-    print("4. 04_BEVISUPPGIFT       - Updated with B6-B10 Abu Mohammad evidence")
-    print("5. 05_NYCKELBEVIS        - Updated with genkäromål reference")
-    print("6. 07_YTTRANDE           - NEW: Formal submission about new evidence")
-    print("7. 08_GENKAROMAL         - Formal counterclaim 400 000 kr")
+    print("DOCUMENTS (FINAL – bring 3 copies of each to court 18 May):")
+    print("1. 01_SVAROMAL_Mohammad  - Slutlig inlaga + genkäromål 400 000 kr")
+    print("2. 02_SVAROMAL_Joumana   - Joumanas bestridande")
+    print("3. 03_FULLMAKT           - Joumana → Mohammad")
+    print("4. 04_BEVISUPPGIFT       - All bevisning B1–B10")
+    print("5. 05_NYCKELBEVIS        - Smoking gun B1 skulderkännande")
+    print("6. 07_YTTRANDE           - Formellt yttrande om bevisning")
+    print("7. 08_GENKAROMAL         - Genkäromål 400 000 kr")
     print()
-    print("NEXT STEPS:")
-    print("- Get authorized translations before 2026-03-20")
-    print("- Contact Abu Mohammad for witness statement")
-    print("- File all documents with the court")
+    print("HEARING 18 MAY 2026 – See COURT_UPDATE_18_MAY_2026.md for what to say/do")

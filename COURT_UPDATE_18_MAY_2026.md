@@ -1,116 +1,102 @@
-# STRATEGI – MÅL T 4438-25 | Eskilstuna Tingsrätt, Rotel 2:04
-**Förhandling:** 18 maj 2026 | **Bevisdeadline:** 20 mars 2026 | **Strategi:** FULL ATTACK – INGEN FÖRLIKNING
+# HUVUDFÖRHANDLING 18 MAJ 2026 – DIN GUIDE
+## Mål T 4438-25 | Eskilstuna Tingsrätt, Rotel 2:04
+**DU SKA:** Bestrid allt, presentera bevis, korsförhör Hebas vittnen, yrka genkäromål 400 000 kr. **INGEN FÖRLIKNING.**
 
 ---
 
-## Uppdatering efter förhandling 16 feb 2026
+## 1. Vad du ska TA MED till rätten
 
-1. Heba åberopat **2 vittnen** (namn okända – begär ut)
-2. **Abu Mohammad (صراف)** – nyckelvittne, Hebas hawala-partner
-3. **518 WhatsApp-meddelanden** + ljud/bilder/PDF:er som bevis
-4. All arabisk bevisning **måste auktoriserat översättas senast 20 mars**
-5. **Ingen förlikning – full strid**
-
----
-
-## 1. Tidplan
-
-| Datum | Åtgärd | Status |
-|-------|--------|--------|
-| 16 feb 2026 | Första förhandlingen | ✅ Genomförd |
-| Omedelbart | Begär Hebas vittnesuppgifter + anlita översättare | ⏰ |
-| 1 mars | Allt material till översättare | 📋 |
-| 10 mars | Översättningar klara, bevisning sammanställd | 📋 |
-| **20 mars** | **DEADLINE: Ny bevisning till rätten** | 🔴 |
-| **18 maj** | **Nästa förhandling** | 📋 |
+| Nr | Dokument | Antal |
+|----|----------|-------|
+| 1 | Svaromål + genkäromål (01_SVAROMAL) | 3 ex |
+| 2 | Joumanas svaromål (02_SVAROMAL) | 3 ex |
+| 3 | Fullmakt original + kopia (03_FULLMAKT) | 2 ex |
+| 4 | Bevisuppgift WhatsApp (04_BEVISUPPGIFT) | 3 ex |
+| 5 | Nyckelbevis B1 – skulderkännande (05_NYCKELBEVIS) | 3 ex |
+| 6 | Yttrande ny bevisning (07_YTTRANDE) | 3 ex |
+| 7 | Genkäromål 400 000 kr (08_GENKAROMAL) | 3 ex |
+| 8 | **Alla auktoriserade översättningar** | 3 ex |
+| 9 | Abu Mohammad-chatt (utskriven + USB/dator) | 1 ex + digital |
+| 10 | Kvitton (översättning, resa, tid) | Kopior |
+| 11 | Polisens nedläggningsbeslut (B5) | 3 ex |
+| 12 | Anteckningsblock + penna | – |
 
 ---
 
-## 2. Abu Mohammad – Nyckelvittne
+## 2. Vad du ska SÄGA – punkt för punkt
 
-**Profil:** Professionell penningväxlare ("ابو محمد صراف"). 518 meddelanden, dec 2023–sept 2024.
+### Inledningsanförande (2–3 min)
+> "Domare, detta mål handlar inte om lån. Heba Alhussien bedrev en illegal hawala-verksamhet – penningöverföringar mellan Sverige och Syrien. De pengar hon påstår vara lån var del av denna verksamhet. Vi bevisar detta med 518 WhatsApp-meddelanden mellan Heba och en professionell penningväxlare Abu Mohammad. Dessutom erkände Heba själv den 29 december 2024 att hon var skyldig Mohammad 35 000 kr – två månader innan hon lämnade in stämningen. Vi bestrider käromålet i sin helhet och yrkar genkäromål på 400 000 kr."
 
-**Hawala-systemet:** Mohammad ↔ Abu Mohammad: Betalning i Sverige (bank/Swish) mot motsvarande belopp i Damaskus (dollar/SYP). **Heba fungerade identiskt** – hon var mellanhand, inte långivare.
+### Per kravpost – vad du svarar
 
-**Nyckelbevis:**
+| Hebas krav | Ditt svar | Bevis du pekar på |
+|------------|-----------|-------------------|
+| 240 000 kr kontantlån | "Det var hawala. Samma pengar cirkulerade 3–4 gånger." | B6–B10 (Abu Mohammad) |
+| 30 000 kr Swish Joumana | "Återbetalat via Swish." | B4 + Swish-kvitto |
+| 107 875 kr Bank Norwegian | "Det var Hebas eget konto. Citat: 'DITT Bank Norwegian'." | WhatsApp sept 2024 |
+| 100 000 kr Marginalen | "Del av hawala, inte lån." | B6–B10 |
+| 60 723 kr ränta | "Ingen skuld = ingen ränta." | – |
 
-| Typ | Innehåll |
-|-----|----------|
-| Dollarväxling | "بدي بالشام ٤٠٠ دولار" = "Jag behöver 400$ i Damaskus" |
-| Stora belopp | "تم 11,520,000 ل.س" = 11,5M SYP bekräftat |
-| Kronor | "٢٥٤٧٠ كرون" = 25 470 kr + foton |
-| Fakturor | 15+ PDF:er (Klarna, Nordea, Ropo Capital) |
-| Krypto | "عندي usdt" – USDT-handel |
+### Smoking gun – B1 (Säg detta högt)
+> "Den 29 december 2024 skrev Heba – och jag citerar: 'عليي سداد دين لابو سمير 35 الف كرون' – 'Jag är skyldig Abu Sami 35 000 kronor.' Detta är hennes eget meddelande, skrivet 2 månader innan stämningen. Det är grunden för vårt genkäromål."
 
-**Material:** 518 text, 60+ ljud, 80+ foton, 15+ PDF, 2 videor – **allt ska översättas**.
-
----
-
-## 3. Hebas vittnen – Motåtgärder
-
-1. Begär ut namn via tingsrätten (016-15 37 00)
-2. Kräv preciserat bevistema (35 kap 7 § RB)
-3. Förbered motfrågor + åberopa Abu Mohammad
+### Om Hebas trovärdighet (Säg detta)
+> "Heba anmälde mig för våldtäkt – påstod upprepade övergrepp under 2 år. Polisen lade ned utredningen inom 10 dagar. Total brist på bevis. Sedan kom denna stämning. Det är ett mönster av hämnd."
 
 ---
 
-## 4. Genkäromål – 400 000 kr
+## 3. Korsförhör av Hebas vittnen
 
-| Post | Belopp | Lagrum |
-|------|--------|--------|
-| A. Hebas skuld | 35 000 kr | Skulderkännande 2024-12-29 |
-| B. Kränkning (falsk våldtäkt) | 150 000 kr | SkL 2:3 + BrB 15:7 |
-| C. Rättegångsmissbruk | 100 000 kr | SkL 2:2 + BrB 15:2 |
-| D. Ekonomisk skada | 75 000 kr | SkL 2:2 |
-| E. Sveda och värk | 40 000 kr | SkL 5:1 |
-| **Totalt** | **400 000 kr** | **+ ränta + rättegångskostnader** |
+**Heba har 2 vittnen (okänd identitet).** Frågor att ställa ALLA hennes vittnen:
 
-**Överväg polisanmälan:** hawala utan tillstånd, bedrägeriförsök, falsk våldtäktsanmälan.
+1. "Var du närvarande vid något tillfälle då pengar överlämnades?"
+2. "Känner du till att Heba bedrev penningöverföringar (hawala) till Syrien?"
+3. "Har Heba bett dig vittna? Vad sa hon att du skulle säga?"
+4. "Vet du att Heba erkände skriftligen att hon var skyldig Mohammad 35 000 kr?"
+5. "Vet du att Heba anmälde Mohammad för våldtäkt och att polisen la ned inom 10 dagar?"
 
----
-
-## 5. Bestridande
-
-| Hebas krav | Svar | Bevis |
-|------------|------|-------|
-| 240 000 kr kontant | **Hawala, ej lån** | Abu Mohammad-chatten |
-| 30 000 kr Swish | **Återbetalat** | WhatsApp jan 2023 |
-| 107 875 kr Bank Norwegian | **Hebas konto** | "DITT Bank Norwegian" |
-| 100 000 kr Marginalen | **Hawala** | Abu Mohammad-chatten |
-| 60 723 kr ränta | **Ingen skuld** | – |
+**Mål:** Visa att vittnena inte har direkt kunskap, eller att de vet om hawala.
 
 ---
 
-## 6. Bevisning senast 20 mars
+## 4. Genkäromål – vad du yrkar
 
-| Nr | Bevis | Källa |
-|----|-------|-------|
-| 1 | Skulderkännande 35 000 kr (29 dec 2024) | Heba-chatt |
-| 2 | 60 000 kr skuld (okt 2024) | Heba-chatt |
-| 3 | Bokföring $8 852 (juni 2023) | Heba-chatt |
-| 4 | "DITT Bank Norwegian" (sept 2024) | Heba-chatt |
-| 5 | Swish-återbetalning (jan 2023) | Heba-chatt |
-| 6 | Abu Mohammad hela chatten (518 rader) | Abu Mohammad |
-| 7 | Röstmeddelanden (60+) | Abu Mohammad |
-| 8 | Foton + transaktionsbevis (80+) | Abu Mohammad |
+| Post | Belopp | Vad du säger |
+|------|--------|-------------|
+| A. Hebas skuld | 35 000 kr | "Heba erkände själv skulden – bevis B1" |
+| B. Kränkning | 150 000 kr | "Falsk våldtäktsanmälan – avfärdad på 10 dagar" |
+| C. Missbruk | 100 000 kr | "Fabricerad stämning som hämnd" |
+| D. Ekonomisk | 75 000 kr | "Översättning, förlorad arbetstid, resa – kvitton bifogas" |
+| E. Sveda/värk | 40 000 kr | "Psykiskt lidande – ångest, sömnproblem, familj påverkad" |
+| **Totalt** | **400 000 kr** | **"+ ränta + rättegångskostnader"** |
 
 ---
 
-## 7. Plan 18 maj
-
-- Presentera alla översatta bevis
-- Förhör Abu Mohammad
-- Korsförhör Hebas vittnen
-- Bevisa hawala → inga lån existerar
+## 5. Slutanförande (1–2 min)
+> "Sammanfattningsvis: Heba har inte lånat ut pengar. Hon bedrev hawala. Abu Mohammad-chatten bevisar detta. Heba erkände själv att hon var skyldig mig 35 000 kr. Polisen avfärdade hennes falska våldtäktsanmälan. Denna stämning är hämnd, inget annat. Vi hemställer att rätten avslår käromålet i sin helhet och bifaller genkäromålet på 400 000 kr jämte ränta och rättegångskostnader."
 
 ---
 
-## 8. Checklista
+## 6. REGLER under förhandlingen
 
-**Nu (16–22 feb):** Ring tingsrätten, hitta översättare (kammarkollegiet.se), kontakta Abu Mohammad, säkerhetskopiera allt.
+1. **Var lugn och saklig** – låt bevisningen tala
+2. **Svara kort på domarens frågor** – ja/nej + förklaring om nödvändigt
+3. **Avbryt inte** – vänta på din tur att tala
+4. **Peka alltid på bevis** – "som framgår av bevis B1…"
+5. **ALDRIG nämn** att du blockade Heba eller skickade arga meddelanden
+6. **Om Heba gråter/blir dramatisk** – ignorera, fokusera på fakta
+7. **Om domaren frågar om förlikning** – "Nej, vi accepterar ingen förlikning"
 
-**Före 1 mars:** Material till översättare + fullmakt signerad.
+---
 
-**Före 10 mars:** Översättningar klara + bilagor numrerade.
+## 7. Tidslinje (förberedelse)
 
-**Senast 20 mars:** **ALLT INLÄMNAT TILL TINGSRÄTTEN + kopia till Adv. Baaken (Baaken.law@gmail.com).**
+| Datum | Uppgift | Status |
+|-------|---------|--------|
+| 17 feb | Börja laga alla dokument | ✅ |
+| Före 1 mars | Material till översättare | ⏰ |
+| Före 10 mars | Översättningar klara | 📋 |
+| **20 mars** | **DEADLINE – lämna in allt till rätten** | 🔴 |
+| Maj (1 vecka före) | Öva inledning + korsförhör | 📋 |
+| **18 maj** | **HUVUDFÖRHANDLING** | 📋 |

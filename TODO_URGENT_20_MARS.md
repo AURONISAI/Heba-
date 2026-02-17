@@ -1,60 +1,71 @@
-# BRÅDSKANDE – MÅL T 4438-25
-**Deadline: 20 MARS 2026 | Förhandling: 18 MAJ 2026**
+# CHECKLISTA – MÅL T 4438-25
+**Förhandling: 18 MAJ 2026 | Bevisdeadline: 20 MARS 2026**
 
 ---
 
-## NU (vecka 16–22 feb)
+## STEG 1: NU → 1 MARS (Förberedelse)
 
-- [ ] 📞 **Ring Eskilstuna Tingsrätt** (016-15 37 00) – begär Hebas vittnesnamn + bevistema (T 4438-25, Rotel 2:04)
-- [ ] 🔍 **Hitta auktoriserad översättare** – kammarkollegiet.se – arabiska → svenska – budget ~15 000–25 000 kr
-- [ ] 📞 **Kontakta Abu Mohammad** – kan han vittna? Fullständigt namn/personnr/adress? Video om utomlands?
-- [ ] 💾 **Säkerhetskopiera** allt bevismaterial (USB + moln)
+- [ ] 📞 **Ring tingsrätten** (016-15 37 00) – Begär Hebas vittnesnamn + bevistema (T 4438-25, Rotel 2:04)
+- [ ] 🔍 **Boka auktoriserad översättare** – kammarkollegiet.se – arabiska → svenska – budget ~15 000–25 000 kr
+- [ ] 📞 **Kontakta Abu Mohammad** – Kan han vittna? Namn/personnr/adress? Video om utomlands?
+- [ ] 💾 **Säkerhetskopiera** allt material (USB + moln)
+- [ ] ✍️ **Signera fullmakt** (Joumana + Mohammad)
+- [ ] 📦 Skicka ALLT arabiskt material till översättare (chattar, 60+ röstmeddelanden, foton)
 
-## Före 1 mars
+## STEG 2: 1 MARS → 10 MARS (Översättning)
 
-- [ ] Skicka allt arabiskt material till översättare (chattar, 60+ röstmeddelanden, foton)
-- [ ] Fullmakt signerad (Joumana + Mohammad)
+- [ ] Alla översättningar klara + kvalitetsgranskning
+- [ ] Yttrande + bilagor numrerade (3 kopior av allt)
+- [ ] Abu Mohammad – vittnesuppgifter klara (namn, adress till rätten)
 
-## Före 10 mars
+## STEG 3: SENAST 20 MARS – SKICKA
 
-- [ ] Alla översättningar klara
-- [ ] Yttrande + bilagor numrerade (3 exemplar)
-- [ ] Genkäromål 400 000 kr klart (skuld 35 + kränkning 150 + missbruk 100 + ekonomisk 75 + sveda 40)
+### Till rätten (rekommenderat brev):
+- [ ] Yttrande med ny bevisuppgift
+- [ ] Fullmakt (original)
+- [ ] All bevisning med auktoriserade översättningar (B1–B10)
+- [ ] Vittnesuppgift (Abu Mohammad)
+- [ ] Genkäromål 400 000 kr
 
-## Senast 20 mars – SKICKA
+> **Eskilstuna Tingsrätt, Rotel 2:04, 631 86 Eskilstuna**
 
-**Till rätten:**
-- [ ] Yttrande med ny bevisuppgift + fullmakt (original) + alla bevis med översättningar + vittnesuppgift + genkäromål
+### Kopia till motparten:
+- [ ] Allt ovan → **Adv. Mayssam Baaken, Norra Hamngatan 4, 411 14 Göteborg** / Baaken.law@gmail.com
 
-> Eskilstuna Tingsrätt, Rotel 2:04, 631 86 Eskilstuna
+## STEG 4: APRIL–MAJ (Förberedelse inför rättegång)
 
-**Kopia till motparten:**
-- [ ] Allt ovan → Adv. Mayssam Baaken, Norra Hamngatan 4, 411 14 Göteborg / Baaken.law@gmail.com
+- [ ] **Läs igenom alla dokument** – kunna dem utantill
+- [ ] **Öva inledningsanförande** (se COURT_UPDATE_18_MAY_2026.md)
+- [ ] **Öva korsförhörsfrågor** mot Hebas vittnen
+- [ ] **Skriv ut allt i 3 exemplar** – en till domaren, en till motparten, en till dig
+- [ ] **Packa mapp/portfölj** med alla handlingar ordnade
+- [ ] **Kontrollera tid/plats** – ring tingsrätten veckan innan
 
 ---
 
 ## Översättningsprioritet
 
-**Högst:** B1 skulderkännande 35k → B2 60k skuld → B3 bokföring $8 852 → B4 "DITT Norwegian" → B5 Swish-återbetalning
+**HÖGST:** B1 skulderkännande 35k → B2 60k skuld → B3 bokföring $8 852 → B4 "DITT Norwegian" → B5 Swish-återbetalning
 
-**Hög:** Abu Mohammad-chatten (518 rader) → nyckeljudmeddelanden → foton med kvitton
+**HÖG:** Abu Mohammad-chatten (518 rader) → nyckeljudmeddelanden → foton med kvitton
 
 ---
 
-## Kostnad
+## Budget
 
 | Post | Belopp |
 |------|--------|
 | Auktoriserad översättare | 10 000–20 000 kr |
 | Transkription röstmeddelanden | 3 000–5 000 kr |
-| Porto/kopiering | 500 kr |
+| Porto/kopiering (3 exemplar allt) | 500–1 000 kr |
 | **Totalt** | **~15 000–25 000 kr** |
 
 ---
 
-## Regler
+## REGLER
 
-1. **INGEN FÖRLIKNING**
-2. **FULL ATTACK** – genkäromål + ev. polisanmälan
-3. **DEADLINE 20 MARS** – missa ej
+1. **INGEN FÖRLIKNING** – aldrig
+2. **FULL ATTACK** – genkäromål 400 000 kr
+3. **DEADLINE 20 MARS** – missa EJ
 4. **ALLT PÅ SVENSKA** – auktoriserad översättning krävs
+5. **3 KOPIOR** av allt (rätten + motpart + dig)
