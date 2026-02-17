@@ -1,104 +1,95 @@
-# MÅL T 4438-25 – ESKILSTUNA TINGSRÄTT
-## UPPDATERAD RÄTTSLIG ANALYS (efter förhandling 16 feb 2026)
+# MÅL T 4438-25 – RÄTTSLIG ANALYS
+**Eskilstuna Tingsrätt, Rotel 2:04 | Uppdaterad efter förhandling 16 feb 2026**
 
 ---
 
-## ÄRENDETS STATUS
+## Status
 
 | | |
 |---|---|
-| **Mål nr** | T 4438-25 |
-| **Domstol** | Eskilstuna Tingsrätt, Rotel 2:04 |
-| **Första förhandling** | 16 februari 2026 ✅ GENOMFÖRD |
-| **Nästa förhandling** | 18 maj 2026 |
-| **Deadline ny bevisning** | 20 mars 2026 |
-| **Vår strategi** | FULL ATTACK – INGEN FÖRLIKNING |
+| **Mål** | T 4438-25 |
+| **Förhandling 1** | 16 feb 2026 ✅ |
+| **Förhandling 2** | 18 maj 2026 |
+| **Bevisdeadline** | 20 mars 2026 |
+| **Strategi** | Full attack – ingen förlikning |
 
 ---
 
-## PARTER
+## Parter
 
-### Kärande:
-- **Heba Alhussien**, 19890412-1244
-- Ombud: Advokat Mayssam Baaken, Norra Hamngatan 4, 411 14 Göteborg
-
-### Svarande 1:
-- **Mohammad Sami Alsharef**, 19860217-5070
-- Näshultagatan 12, 632 29 Eskilstuna
-- Tel: 0720147440 / info@samisjackets.com
-
-### Svarande 2:
-- **Joumana Alnablsi**, 19880102-5084
-- Näshultagatan 12, 632 29 Eskilstuna
-- Tel: 0735165708 / jomana.alnablsi@hotmail.com
-- Före detta sambo (separerade 5+ år sedan)
-- Företräds av Mohammad enligt fullmakt
+| Roll | Person | Kontakt |
+|------|--------|---------|
+| **Kärande** | Heba Alhussien, 890412-1244 | Ombud: Adv. Mayssam Baaken, Norra Hamngatan 4, 411 14 Göteborg |
+| **Svarande 1** | Mohammad Sami Alsharef, 860217-5070 | Näshultagatan 12, 632 29 Eskilstuna / 0720147440 |
+| **Svarande 2** | Joumana Alnablsi, 880102-5084 | Samma adress / 0735165708 / Företräds av Mohammad (fullmakt) |
 
 ---
 
-## KÄROMÅLET – VAD HEBA KRÄVER
+## Käromålet (Hebas krav)
 
-| Post | Belopp | Påstående |
-|------|--------|-----------|
-| Kontantlån till Mohammad | 240 000 kr | Påstår sig ha lånat ut kontanter |
-| Swish till Joumana | 30 000 kr | Påstår sig ha swishat till Joumana |
-| Bank Norwegian | 107 875 kr | Påstår sig ha tagit lån för Mohammad |
-| Marginalen Bank | 100 000 kr | Påstår sig ha tagit lån för Mohammad |
-| Ränta | 60 723 kr | |
-| **TOTALT** | **~541 118 kr** | |
-
----
-
-## VÅR POSITION – FULLSTÄNDIGT BESTRIDANDE + GENKÄROMÅL
-
-### Sammanfattning:
-**Inget lån har någonsin existerat.** Allt Heba kallar "lån" var en **hawala-verksamhet** (informell penningöverföring) där pengar cirkulerade mellan Sverige och Syrien. Heba var en mellanhand, inte långivare.
-
-### Bestridande punkt för punkt:
-
-| Hebas krav | Vårt svar | Bevis |
-|------------|-----------|-------|
-| 240 000 kr kontantlån | **BESTRIDS** – Hawala, inte lån | Abu Mohammad visar samma system |
-| 30 000 kr Swish | **BESTRIDS** – Återbetalat | WhatsApp jan 2023 |
-| 107 875 kr Bank Norwegian | **BESTRIDS** – Hebas eget konto | "DITT Bank Norwegian" i chatten |
-| 100 000 kr Marginalen | **BESTRIDS** – Del av hawala | Abu Mohammad-bevis |
-| 60 723 kr ränta | **BESTRIDS** | Ingen skuld = ingen ränta |
-
-### Genkäromål (400 000 kr + ränta + rättegångskostnader):
-
-| Post | Belopp | Rättslig grund |
-|------|--------|----------------|
-| Hebas skuld | 35 000 kr | Ensidigt skulderkännande 2024-12-29 |
-| Kränkningsersättning (falsk våldtäktsanmälan) | 150 000 kr | 2 kap 3 § SkL via BrB 15:7 |
-| Skadestånd (rättegångsmissbruk) | 100 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 |
-| Ekonomisk skada | 75 000 kr | 2 kap 2 § SkL |
-| Sveda och värk (psykiskt lidande) | 40 000 kr | 5 kap 1 § SkL |
-| **TOTALT** | **400 000 kr** | **+ ränta + rättegångskostnader** |
+| Post | Belopp |
+|------|--------|
+| Kontantlån | 240 000 kr |
+| Swish till Joumana | 30 000 kr |
+| Bank Norwegian | 107 875 kr |
+| Marginalen Bank | 100 000 kr |
+| Ränta | 60 723 kr |
+| **Totalt** | **~541 118 kr** |
 
 ---
 
-## BEVISNING
+## Bestridande
 
-### Redan inlämnad (dec 2025):
+**Inget lån har existerat.** Alla transaktioner var **hawala** (informell penningöverföring Sverige ↔ Syrien). Heba var mellanhand, inte långivare.
+
+| Krav | Svar | Bevis |
+|------|------|-------|
+| 240 000 kr kontant | Hawala, ej lån | Abu Mohammad-chatten |
+| 30 000 kr Swish | Återbetalat | WhatsApp jan 2023 (B4) |
+| 107 875 kr Norwegian | Hebas eget konto | "DITT Bank Norwegian" i chatt |
+| 100 000 kr Marginalen | Hawala | Abu Mohammad (B6–B10) |
+| 60 723 kr ränta | Ingen skuld = ingen ränta | – |
+
+---
+
+## Genkäromål – 400 000 kr
+
+| Post | Belopp | Lagrum |
+|------|--------|--------|
+| A. Hebas skuld | 35 000 kr | Skulderkännande 2024-12-29 |
+| B. Kränkning (falsk våldtäkt) | 150 000 kr | SkL 2:3 + BrB 15:7 |
+| C. Rättegångsmissbruk | 100 000 kr | SkL 2:2 + BrB 15:2 |
+| D. Ekonomisk skada | 75 000 kr | SkL 2:2 |
+| E. Sveda och värk | 40 000 kr | SkL 5:1 |
+| **Totalt** | **400 000 kr** | **+ ränta + rättegångskostnader** |
+
+---
+
+## Bevisning
+
+**Inlämnad (dec 2025):**
+
 | Nr | Bevis | Bevisar |
 |----|-------|---------|
-| B1 | WhatsApp Heba 29 dec 2024 | Heba skyldig Mohammad 35 000 kr |
-| B2 | WhatsApp Heba okt 2024 | Heba skyldig 60 000 kr |
-| B3 | WhatsApp Heba juni 2023 | Bokföring: skuld $8 852 |
+| B1 | WhatsApp 29 dec 2024 | Heba skyldig 35 000 kr |
+| B2 | WhatsApp okt 2024 | Heba skyldig 60 000 kr |
+| B3 | WhatsApp juni 2023 | Bokföring: $8 852 skuld |
 | B4 | WhatsApp jan 2023 | Swish återbetalat |
 | B5 | Polisens nedläggning | Falsk våldtäktsanmälan |
 
-### NY bevisning (senast 20 mars 2026):
+**Ny bevisning (senast 20 mars):**
+
 | Nr | Bevis | Bevisar |
 |----|-------|---------|
-| B6 | WhatsApp Abu Mohammad ↔ Mohammad (518 meddelanden) | Hawala-systemet, Heba var del av det |
-| B7 | Röstmeddelanden Abu Mohammad (60+) | Penningöverföringar bekräftade |
-| B8 | Fotografier Abu Mohammad (80+) | Transaktionsbevis |
-| B9 | PDF-fakturor Abu Mohammad | Samma typ av betalningar som Heba |
-| B10 | Auktoriserade översättningar | All arabisk bevisning |
+| B6 | Abu Mohammad WhatsApp (518 msg) | Hawala-systemet |
+| B7 | Röstmeddelanden (60+) | Penningöverföringar |
+| B8 | Fotografier (80+) | Transaktionsbevis |
+| B9 | PDF-fakturor (Klarna, Nordea) | Samma mönster som Heba |
+| B10 | Auktoriserade översättningar | Rättens krav |
 
-### Vittnen:
-| Vittne | Part | Bevistema |
-|--------|------|-----------|
-| Abu Mohammad (صراف) | SVARANDE | Hawala, Hebas roll |
-| 2 okända | KÄRANDE | Okänt – begärt precisering |
+**Vittnen:**
+
+| Vittne | Part | Tema |
+|--------|------|------|
+| Abu Mohammad (صراف) | Svarande | Hawala, Hebas roll |
+| 2 okända | Kärande | Okänt – precisering begärd |

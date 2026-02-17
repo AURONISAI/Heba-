@@ -1,163 +1,100 @@
 # YTTRANDE MED NY BEVISUPPGIFT
 ## Mål T 4438-25 – Eskilstuna Tingsrätt, Rotel 2:04
 
----
-
-**Till:**
-Eskilstuna Tingsrätt
-Rotel 2:04
-631 86 Eskilstuna
-
+**Till:** Eskilstuna Tingsrätt, Rotel 2:04, 631 86 Eskilstuna
 **Datum:** ______________ 2026 (senast 20 mars 2026)
 
 ---
 
-## PARTER
-
-**Kärande:** Heba Alhussien, 19890412-1244
-Ombud: Advokat Mayssam Baaken, Advokat Mayssam Baaken AB
-
-**Svarande 1:** Mohammad Sami Alsharef, 19860217-5070
-Näshultagatan 12, 632 29 Eskilstuna
-
-**Svarande 2:** Joumana Alnablsi, 19880102-5084
-Näshultagatan 12, 632 29 Eskilstuna
-(företrädd av Mohammad Sami Alsharef enligt fullmakt)
+**Kärande:** Heba Alhussien, 19890412-1244 – Ombud: Adv. Mayssam Baaken
+**Svarande 1:** Mohammad Sami Alsharef, 19860217-5070, Näshultagatan 12, 632 29 Eskilstuna
+**Svarande 2:** Joumana Alnablsi, 19880102-5084 (företrädd av Mohammad enligt fullmakt)
 
 ---
 
-## 1. INSTÄLLNING
+## 1. Inställning
 
 Svarandena vidhåller sitt bestridande av käromålet i sin helhet.
 
 ---
 
-## 2. YTTRANDE ÖVER KÄRANDENS NYA VITTNEN
+## 2. Yttrande över kärandens vittnen
 
-Käranden har vid förhandlingen den 16 februari 2026 åberopat två vittnen.
+Käranden åberopade två vittnen vid förhandlingen 16 februari 2026. Svarandena:
 
-Svarandena:
-
-a) Bestrider att dessa vittnen kan ha relevant kunskap om de påstådda låneförhållandena, eftersom inga lån har existerat. De transaktioner som förekommit var del av en informell penningöverföringsverksamhet (hawala).
-
-b) Begär att käranden, i enlighet med 35 kap. 7 § rättegångsbalken, preciserar vad varje vittne förväntas uttala sig om och på vilket sätt deras vittnesmål är relevanta för saken.
-
-c) Förbehåller sig rätten att ställa motfrågor vid förhör av vittnena.
+a) Bestrider att vittnena kan ha relevant kunskap – inga lån har existerat, transaktionerna var hawala.
+b) Begär att käranden preciserar bevistema per vittne (35 kap 7 § RB).
+c) Förbehåller sig rätten att ställa motfrågor.
 
 ---
 
-## 3. NY BEVISNING FRÅN SVARANDENA
+## 3. Ny bevisning
 
-### 3.1 Översikt
+### 3.1 Abu Mohammad – nyckelperson
 
-Svarandena åberopar ny skriftlig och muntlig bevisning som ytterligare styrker att de pengar som käranden påstår vara "lån" i själva verket var del av en informell penningöverföringsverksamhet (s.k. hawala) mellan Sverige och Syrien.
+Professionell penningväxlare ("ابو محمد صراف") som opererade samma hawala-system som Heba. WhatsApp 518 meddelanden (dec 2023–sept 2024) visar:
 
-Den nya bevisningen avser framför allt WhatsApp-konversationer med en person vid namn **Abu Mohammad** (kontaktnamn: "ابو محمد صراف", där "صراف" betyder "penningväxlare"). Denna person var en professionell penningväxlare som regelbundet utförde transaktioner åt Mohammad Sami Alsharef på samma sätt som käranden Heba Alhussien gjorde.
+1. Penningöverföringar via bank/Swish i Sverige mot betalning i Damaskus
+2. Fakturor (Klarna, Nordea) betalda för Mohammads räkning
+3. USDT/kryptovalutatransaktioner
+4. **Identiskt mönster som Heba** – hon var mellanhand, inte långivare
 
-### 3.2 Abu Mohammad – Nyckelperson i hawala-verksamheten
-
-**Bakgrund:**
-Abu Mohammad är en professionell penningväxlare som opererade samma typ av hawala-system som käranden Heba Alhussien var involverad i. WhatsApp-konversationen mellan Mohammad och Abu Mohammad (518 meddelanden, december 2023 – september 2024) visar:
-
-1. Mohammad bad Abu Mohammad att överföra pengar i Sverige (till Heba eller andra mottagare)
-2. Abu Mohammad genomförde betalningar via banköverföringar och Swish
-3. Mohammad betalade motsvarande belopp i Damaskus, Syrien (i dollar eller syriska pund)
-4. Abu Mohammad betalade även fakturor (Klarna, Nordea, etc.) för Mohammads räkning
-5. Betalningar skedde även via kryptovaluta (USDT)
-
-**Bevisbetydelse:**
-Denna konversation visar att Heba Alhussien inte var ensam om att utföra dessa transaktioner. Samma system användes av flera personer. De pengar som käranden påstår vara "lån" var i verkligheten insättningar inom ramen för hawala-verksamheten. Käranden var mellanhand, inte långivare.
-
-### 3.3 Ny skriftlig bevisning
+### 3.2 Skriftlig bevisning
 
 | Nr | Bevis | Bevistema |
 |----|-------|-----------|
-| B6 | WhatsApp-konversation mellan Mohammad och Abu Mohammad, 518 meddelanden, december 2023 – september 2024 (med auktoriserad svensk översättning) | Visar hur hawala-systemet fungerade i praktiken och att samma system användes med flera personer, inte bara Heba |
-| B7 | Röstmeddelanden mellan Mohammad och Abu Mohammad, 60+ stycken (transkriberade och översatta till svenska) | Bekräftar muntligen att penningöverföringar skedde regelbundet och hur betalningar organiserades |
-| B8 | Fotografier och skärmdumpar från Mohammad och Abu Mohammads konversation, 80+ stycken | Visar kvitton, banköverföringar och transaktionsbevis |
-| B9 | PDF-fakturor från Abu Mohammad-konversationen (Klarna, Nordea Ropo Capital, m.fl.) | Visar att Abu Mohammad betalade fakturor i Sverige åt Mohammad, på samma sätt som käranden påstås ha gjort |
-| B10 | Auktoriserade svenska översättningar av samtliga nya arabiska bevis samt tidigare åberopad bevisning (B1-B9) | Möjliggör rättens fullständiga granskning |
+| B6 | WhatsApp Abu Mohammad (518 msg, översatt) | Hawala-systemet i praktiken |
+| B7 | Röstmeddelanden (60+, transkriberade) | Penningöverföringar bekräftade |
+| B8 | Fotografier (80+) | Kvitton och transaktionsbevis |
+| B9 | PDF-fakturor (Klarna, Nordea m.fl.) | Samma betalningar som Heba |
+| B10 | Auktoriserade översättningar (B1–B9) | Rättens krav |
 
-### 3.4 Nytt vittne
+### 3.3 Vittne
 
-Svarandena åberopar **Abu Mohammad** (fullständigt namn och personuppgifter meddelas i komplettering) som vittne.
-
-**Bevistema:**
-Abu Mohammad ska höras om:
-- Hur det informella penningöverföringssystemet (hawala) fungerade mellan Sverige och Syrien
-- Att han personligen genomförde penningöverföringar åt Mohammad Sami Alsharef
-- Att Heba Alhussien var del av samma system och fungerade som mellanhand
-- Att de pengar som passerade genom Hebas konto var penningöverföringar, inte lån
-- Att Abu Mohammad även betalade fakturor i Sverige åt Mohammad, precis som käranden påstås ha gjort
+**Abu Mohammad** (personuppgifter meddelas i komplettering) – ska höras om hawala-systemet, Hebas roll som mellanhand, att pengarna var överföringar, inte lån.
 
 ---
 
-## 4. FULLMAKT
+## 4. Fullmakt
 
-Svarandena lämnar härmed in fullständig rättegångsfullmakt (original) från Joumana Alnablsi till Mohammad Sami Alsharef.
+Rättegångsfullmakt (original) bifogas: Joumana Alnablsi → Mohammad Sami Alsharef.
 
 ---
 
-## 5. YRKANDEN
-
-Svarandena vidhåller sina yrkanden:
+## 5. Yrkanden
 
 1. **Käromålet ogillas i sin helhet**
-2. **Käranden förpliktas att ersätta svarandenas samtliga rättegångskostnader**
-3. I andra hand: Om rätten skulle finna att någon betalningsskyldighet föreligger, yrkas att beloppet jämkas väsentligt
+2. **Käranden ersätter samtliga rättegångskostnader**
+3. I andra hand: väsentlig jämkning
 
-### Genkäromål
+### Genkäromål – 400 000 kr
 
-Svarandena framställer härmed genkäromål mot käranden på **totalt 400 000 kr**:
+| Post | Belopp | Lagrum |
+|------|--------|--------|
+| A. Hebas skuld | 35 000 kr | Skulderkännande (B1) 2024-12-29 |
+| B. Kränkning (falsk våldtäkt) | 150 000 kr | SkL 2:3 + BrB 15:7 |
+| C. Rättegångsmissbruk | 100 000 kr | SkL 2:2 + BrB 15:2 |
+| D. Ekonomisk skada | 75 000 kr | SkL 2:2 |
+| E. Sveda och värk | 40 000 kr | SkL 5:1 |
+| **Totalt** | **400 000 kr** | **+ ränta (6 § räntelagen) + rättegångskostnader** |
 
-| Post | Belopp | Rättslig grund |
-|------|--------|----------------|
-| A. Hebas skuld | 35 000 kr | Ensidigt skulderkännande (B1) 2024-12-29 |
-| B. Kränkningsersättning (falsk våldtäktsanmälan) | 150 000 kr | 2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse) |
-| C. Skadestånd (rättegångsmissbruk / falsk stämning) | 100 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga) |
-| D. Ekonomisk skada (översättning, inkomstförlust m.m.) | 75 000 kr | 2 kap 2 § SkL (ren förmögenhetsskada) |
-| E. Sveda och värk (psykiskt lidande) | 40 000 kr | 5 kap 1 § SkL (personskada) |
-| **TOTALT** | **400 000 kr** | **+ ränta enl. 6 § räntelagen + rättegångskostnader** |
-
-Heba Alhussien har systematiskt missbrukat rättsväsendet: först en falsk våldtäktsanmälan (nedlagd inom ~10 dagar), sedan denna falska stämning. Mohammad har lidit allvarlig kränkning, ekonomisk skada, psykiskt lidande och sveda och värk.
-
-2. Svarandena förbehåller sig rätten att utöka genkäromålet med ytterligare krav.
+Heba har systematiskt missbrukat rättsväsendet: falsk våldtäktsanmälan (nedlagd ~10 dagar) → falsk stämning. Svarandena förbehåller sig rätten att utöka genkäromålet.
 
 ---
 
-## 6. SAMMANFATTNING AV SVARANDENAS POSITION
+## 6. Sammanfattning
 
-Svarandena vidhåller i sin helhet vad som anförts i svaromålet daterat december 2025.
-
-Utöver vad som tidigare anförts vill svarandena framhålla:
-
-1. **Det har aldrig existerat något låneavtal** mellan parterna. Samtliga transaktioner var del av en informell penningöverföringsverksamhet (hawala) mellan Sverige och Syrien.
-
-2. **Abu Mohammad-bevisningen** visar att det inte var unikt att käranden hanterade pengar åt Mohammad. Samma system användes med professionella penningväxlare. Käranden var en mellanhand i detta system.
-
-3. **Käranden har själv erkänt** att hon var skyldig svarande 1 pengar – 35 000 kr per den 29 december 2024.
-
-4. **Kärandens trovärdighet är allvarligt skadad** genom den falska våldtäktsanmälningen som avfärdades av polisen.
-
-5. **Käromålet är ett missbruk av rättsväsendet** – en hämndaktion som utlöstes av en personlig konflikt.
+1. **Inget låneavtal existerar** – alla transaktioner var hawala
+2. **Abu Mohammad-bevisningen** visar att samma system användes med flera personer
+3. **Käranden erkände skuld** – 35 000 kr (29 dec 2024)
+4. **Kärandens trovärdighet skadad** – falsk våldtäktsanmälan avfärdad
+5. **Käromålet är rättegångsmissbruk** – hämndaktion
 
 ---
 
 Eskilstuna den ______________ 2026
 
-**Mohammad Sami Alsharef**
-Näshultagatan 12, 632 29 Eskilstuna
-Tel: 0720147440
-E-post: info@samisjackets.com
-
+**Mohammad Sami Alsharef** | Näshultagatan 12, 632 29 Eskilstuna | 0720147440 | info@samisjackets.com
 *(Även ombud för Joumana Alnablsi enligt bifogad fullmakt)*
 
----
-
-**Bilagor:**
-1. Fullmakt (original) – Joumana Alnablsi → Mohammad Sami Alsharef
-2. Bevis B6 – WhatsApp Abu Mohammad ↔ Mohammad (text + auktoriserad översättning)
-3. Bevis B7 – Röstmeddelanden Abu Mohammad (transkription + översättning)
-4. Bevis B8 – Fotografier och skärmdumpar med översättning
-5. Bevis B9 – PDF-fakturor från Abu Mohammad-konversationen
-6. Bevis B10 – Auktoriserade översättningar av all bevisning
+**Bilagor:** 1. Fullmakt (original) 2. B6 WhatsApp Abu Mohammad 3. B7 Röstmeddelanden 4. B8 Fotografier 5. B9 PDF-fakturor 6. B10 Auktoriserade översättningar

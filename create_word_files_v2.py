@@ -226,27 +226,18 @@ def create_svaromal_mohammad():
     
     # Ground 1
     doc.add_heading('1. Inga lån – informell penningöverföring (hawala)', level=2)
-    doc.add_paragraph('De pengar som Heba påstår sig ha lånat ut var inte lån. Det var del av en informell penningöverföringsverksamhet (s.k. hawala) där Heba fungerade som mellanhand för penningöverföringar mellan Sverige och Syrien.')
-    
-    doc.add_paragraph('I denna verksamhet:')
-    doc.add_paragraph('Betalade Heba Mohammads svenska räkningar (fakturor, Klarna m.m.)', style='List Bullet')
-    doc.add_paragraph('Betalade Mohammad motsvarande belopp i Damaskus till Hebas familj i syriska pund', style='List Bullet')
-    doc.add_paragraph('Samma pengar cirkulerade fram och tillbaka flera gånger', style='List Bullet')
-    doc.add_paragraph('De 300 000+ kr som Heba påstår sig ha gett ut är samma pengar som cirkulerat 3–4 gånger, inte separata lån.')
+    doc.add_paragraph('De påstådda lånen var del av en informell penningöverföringsverksamhet (hawala) där Heba fungerade som mellanhand mellan Sverige och Syrien. Heba betalade svenska räkningar (fakturor, Klarna), Mohammad betalade motsvarande i Damaskus i syriska pund. De 300 000+ kr som Heba åberopar är samma pengar som cirkulerat 3–4 gånger – inte separata lån.')
     
     doc.add_paragraph()
     p = doc.add_paragraph()
-    p.add_run('NY BEVISNING – Abu Mohammad (penningväxlare):').bold = True
-    doc.add_paragraph('WhatsApp-konversationer mellan Heba och Abu Mohammad (professionell penningväxlare "صراف") visar att Heba bedrev systematisk hawala-verksamhet. I dessa konversationer förekommer:')
-    doc.add_paragraph('Dollarväxlingar i Damaskus ("بدي بالشام ٤٠٠ دولار" = "jag behöver 400 dollar i Damaskus")', style='List Bullet')
-    doc.add_paragraph('Stora belopp i syriska pund (11 520 000 SYP bekräftat i ett enda meddelande)', style='List Bullet')
-    doc.add_paragraph('USDT/kryptovalutatransaktioner ("عندي usdt")', style='List Bullet')
-    doc.add_paragraph('Faktura- och Klarna-betalningar via Nordea', style='List Bullet')
-    doc.add_paragraph('Fotografier på kvitton och bekräftelser', style='List Bullet')
+    p.add_run('NY BEVISNING – Abu Mohammad (penningväxlare/صراف):').bold = True
+    doc.add_paragraph('WhatsApp-konversation (518 meddelanden, dec 2023–sep 2024) mellan Heba och Abu Mohammad bevisar systematisk hawala-verksamhet:')
+    doc.add_paragraph('Dollarväxlingar i Damaskus, belopp i syriska pund (11,5 milj. SYP)', style='List Bullet')
+    doc.add_paragraph('USDT/kryptovaluta, Klarna-/Nordea-fakturor, kvitton', style='List Bullet')
     doc.add_paragraph('60+ ljudmeddelanden med transaktionsinstruktioner', style='List Bullet')
     doc.add_paragraph()
     p = doc.add_paragraph()
-    p.add_run('Abu Mohammad-chatten bevisar att Hebas verksamhet var en professionell penningväxlingsoperation – inte privata utlåningar.').bold = True
+    p.add_run('Abu Mohammad-chatten bevisar att Hebas verksamhet var professionell penningväxling – inte privata utlåningar.').bold = True
     
     # Ground 2
     doc.add_heading('2. Heba är skyldig Mohammad pengar', level=2)
@@ -291,7 +282,7 @@ def create_svaromal_mohammad():
     
     # Ground 3
     doc.add_heading('3. 30 000 kr till Joumana återbetalades', level=2)
-    doc.add_paragraph('Joumana fick 30 000 kr via Swish som del av familjens penningöverföringsverksamhet. Beloppet återbetalades via Swish:')
+    doc.add_paragraph('Joumana fick 30 000 kr via Swish som del av hawala-verksamheten. Beloppet återbetalades via Swish:')
     
     add_arabic_with_translation(
         doc,
@@ -301,7 +292,7 @@ def create_svaromal_mohammad():
     
     # Ground 4
     doc.add_heading('4. Bank Norwegian var Hebas eget konto', level=2)
-    doc.add_paragraph('De 107 875 kr som påstås komma från Bank Norwegian var från Hebas eget bankkonto:')
+    doc.add_paragraph('De 107 875 kr från Bank Norwegian var från Hebas eget konto:')
     
     add_arabic_with_translation(
         doc,
@@ -313,19 +304,13 @@ def create_svaromal_mohammad():
     
     # Ground 5
     doc.add_heading('5. Handskrivna papperet – kryptovalutahandel', level=2)
-    doc.add_paragraph('Det handskrivna papperet som Heba åberopar var relaterat till kryptovalutahandel (USDT), inte ett låneavtal. Abu Mohammad-chatten bekräftar att USDT-handel var en del av Hebas hawala-verksamhet.')
+    doc.add_paragraph('Det handskrivna papperet var relaterat till USDT-kryptohandel, inte låneavtal. Abu Mohammad-chatten bekräftar att USDT-handel ingår i Hebas hawala-verksamhet.')
     
     # Ground 6
     doc.add_heading('6. Hebas trovärdighet är allvarligt skadad', level=2)
     
     doc.add_paragraph('a) Falsk våldtäktsanmälan').runs[0].bold = True
-    doc.add_paragraph('Heba har gjort en polisanmälan om våldtäkt mot Mohammad. Hon påstod att han hade våldtagit henne flera gånger under cirka 2 år.')
-    p = doc.add_paragraph()
-    p.add_run('Polisen lade ned utredningen inom cirka 10 dagar på grund av total brist på bevis.').bold = True
-    doc.add_paragraph('Detta visar:')
-    doc.add_paragraph('Ett mönster av falska anklagelser', style='List Bullet')
-    doc.add_paragraph('Vilja att göra allvarliga osanna påståenden', style='List Bullet')
-    doc.add_paragraph('Hämndmotiv mot Mohammad', style='List Bullet')
+    doc.add_paragraph('Heba anmälde Mohammad för våldtäkt – påstod upprepade övergrepp under ~2 år. Polisen lade ned utredningen inom ~10 dagar p.g.a. total brist på bevis. Detta visar ett mönster av falska anklagelser och hämndmotiv.')
     
     doc.add_paragraph()
     doc.add_paragraph('b) Hämndmotiv – tidslinje').runs[0].bold = True
@@ -351,7 +336,7 @@ def create_svaromal_mohammad():
     
     doc.add_paragraph()
     p = doc.add_paragraph()
-    p.add_run('Stämningen lämnades in som hämnd efter att Mohammad avvisat Hebas närmanden och efter att polisen avfärdade hennes falska anmälan.').bold = True
+    p.add_run('Stämningen är hämnd efter att polisen avfärdade Hebas falska anmälan.').bold = True
     
     # BEVISNING
     doc.add_heading('BEVISNING', level=1)
@@ -448,50 +433,45 @@ def create_svaromal_mohammad():
     doc.add_paragraph('Meddelandet utgör ett ensidigt skulderkännande. Heba har inte betalat.')
     
     doc.add_heading('B. Kränkningsersättning: 150 000 kr (falsk våldtäktsanmälan)', level=2)
-    doc.add_paragraph('Heba Alhussien anmälde Mohammad för våldtäkt – påstod att han våldtagit henne upprepade gånger under en period av ~2 år. Polisen lade ned utredningen inom ~10 dagar på grund av total brist på bevis.')
+    doc.add_paragraph('Heba anmälde Mohammad för våldtäkt – påstod upprepade övergrepp under ~2 år. Polisen lade ned inom ~10 dagar p.g.a. total brist på bevis.')
     doc.add_paragraph()
     doc.add_paragraph('Rättslig grund:').runs[0].bold = True
-    doc.add_paragraph('Falsk tillvitelse enligt 15 kap 7 § brottsbalken – att falskeligen tillvita någon brott inför myndighet', style='List Bullet')
-    doc.add_paragraph('Kränkningsersättning enligt 2 kap 3 § skadeståndslagen (1972:207) – allvarlig kränkning genom brott mot person', style='List Bullet')
+    doc.add_paragraph('Falsk tillvitelse enl. 15 kap 7 § BrB – falskeligen tillvita brott inför myndighet', style='List Bullet')
+    doc.add_paragraph('Kränkningsersättning enl. 2 kap 3 § SkL – allvarlig kränkning genom brott', style='List Bullet')
     doc.add_paragraph()
     doc.add_paragraph('Beloppet 150 000 kr motiveras av:').runs[0].bold = True
-    doc.add_paragraph('Våldtäkt är ett av de allvarligaste brotten i svensk lag – att falskeligen anklagas för detta utgör en extrem kränkning', style='List Bullet')
-    doc.add_paragraph('Anklagelsen innebar risk för frihetsberövande – straff för våldtäkt är minst 2 års fängelse', style='List Bullet')
-    doc.add_paragraph('Skada på heder och rykte – i både det svenska och arabiska samhället är en våldtäktsanklagelse ödeläggande', style='List Bullet')
-    doc.add_paragraph('Langvarig psykisk påverkan – ångest, sömnproblem, social isolering', style='List Bullet')
-    doc.add_paragraph('Påverkan på barn och familj – barnen har påverkats av den falska anklagelsen', style='List Bullet')
-    doc.add_paragraph('Mönster av systematisk förföljelse – anklagelsen var inte isolerad utan del av en hämndkampanj', style='List Bullet')
-    doc.add_paragraph('Jfr Brottsoffermyndighetens praxis: kränkningsersättning för falska anklagelser om allvarliga brott uppgår regelmässigt till 100 000–200 000 kr', style='List Bullet')
+    doc.add_paragraph('Våldtäkt är bland de allvarligaste brotten – falsk anklagelse utgör extrem kränkning med risk för frihetsberövande (min. 2 års fängelse)', style='List Bullet')
+    doc.add_paragraph('Allvarlig skada på heder och rykte i både svenskt och arabiskt samhälle', style='List Bullet')
+    doc.add_paragraph('Långvarigt psykiskt lidande – ångest, sömnproblem, påverkan på barn och familj', style='List Bullet')
+    doc.add_paragraph('Systematisk förföljelse – del av hämndkampanj', style='List Bullet')
+    doc.add_paragraph('Jfr Brottsoffermyndighetens praxis: 100 000–200 000 kr för falska anklagelser om allvarliga brott', style='List Bullet')
     
     doc.add_heading('C. Skadestånd: 100 000 kr (rättegångsmissbruk / falsk stämning)', level=2)
-    doc.add_paragraph('Heba har medvetet och lögnaktigt lämnat in en stämningsansökan på 541 118 kr baserad på påståenden som hon vet är falska. Hon vet att inga lån existerat – pengarna var del av hawala-verksamhet.')
+    doc.add_paragraph('Heba har medvetet lämnat in en stämning på 541 118 kr baserad på påståenden hon vet är falska. Pengarna var del av hawala-verksamhet – inga lån existerade.')
     doc.add_paragraph()
     doc.add_paragraph('Rättslig grund:').runs[0].bold = True
-    doc.add_paragraph('Ren förmögenhetsskada vid brott enligt 2 kap 2 § skadeståndslagen', style='List Bullet')
-    doc.add_paragraph('Jfr osann partsutsaga enligt 15 kap 2 § brottsbalken – att under sanningsförsäkran lämna osanna uppgifter i rättegång', style='List Bullet')
+    doc.add_paragraph('Ren förmögenhetsskada vid brott enl. 2 kap 2 § SkL', style='List Bullet')
+    doc.add_paragraph('Jfr osann partsutsaga enl. 15 kap 2 § BrB', style='List Bullet')
     doc.add_paragraph()
     doc.add_paragraph('Beloppet 100 000 kr motiveras av:').runs[0].bold = True
-    doc.add_paragraph('Det falska kravet uppgår till 541 118 kr – ett enormt belopp som Heba medvetet fabricerat', style='List Bullet')
-    doc.add_paragraph('Systematiskt mönster: först falsk våldtäktsanmälan, sedan falsk stämning – när en metod misslyckas används nästa', style='List Bullet')
-    doc.add_paragraph('Mohammad har tvingats lägga hundratals timmar på att försvara sig mot grundlösa påståenden', style='List Bullet')
-    doc.add_paragraph('Rättsväsendet används medvetet som vapen för personlig hämnd', style='List Bullet')
+    doc.add_paragraph('Fabricerat krav på 541 118 kr – systematiskt mönster (falsk våldtäktsanmälan, sedan falsk stämning)', style='List Bullet')
+    doc.add_paragraph('Hundratals timmars arbete för att försvara sig mot grundlösa påståenden', style='List Bullet')
+    doc.add_paragraph('Rättsväsendet används medvetet som hämndvapen', style='List Bullet')
     
     doc.add_heading('D. Ekonomisk skada: 75 000 kr', level=2)
-    doc.add_paragraph('Mohammad har lidit direkt ekonomisk skada till följd av Hebas agerande:')
-    doc.add_paragraph('Auktoriserade översättningar av all arabisk bevisning (arabiska → svenska): ~20 000 kr', style='List Bullet')
-    doc.add_paragraph('Förlorad arbetsinkomst – Mohammad driver eget företag (samisjackets.com) och har förlorat avsevärd inkomst: ~30 000 kr', style='List Bullet')
-    doc.add_paragraph('Resekostnader till domstol, möten, myndigheter: ~5 000 kr', style='List Bullet')
-    doc.add_paragraph('Porto, kopiering, administration och övriga kostnader: ~5 000 kr', style='List Bullet')
-    doc.add_paragraph('Framtida kostnader för huvudförhandling 18 maj 2026: ~15 000 kr (uppskattning)', style='List Bullet')
-    doc.add_paragraph('Rättslig grund: 2 kap 2 § skadeståndslagen (ren förmögenhetsskada).')
+    doc.add_paragraph('Direkt ekonomisk skada till följd av Hebas agerande:')
+    doc.add_paragraph('Auktoriserade översättningar (arabiska → svenska): ~20 000 kr', style='List Bullet')
+    doc.add_paragraph('Förlorad arbetsinkomst (samisjackets.com): ~30 000 kr', style='List Bullet')
+    doc.add_paragraph('Resekostnader, porto, kopiering: ~10 000 kr', style='List Bullet')
+    doc.add_paragraph('Framtida kostnader (huvudförhandling 18 maj 2026): ~15 000 kr', style='List Bullet')
+    doc.add_paragraph('Rättslig grund: 2 kap 2 § SkL (ren förmögenhetsskada).')
     
     doc.add_heading('E. Sveda och värk: 40 000 kr (psykiskt lidande)', level=2)
-    doc.add_paragraph('Mohammad har lidit allvarligt psykiskt lidande till följd av Hebas systematiska förföljelse:')
-    doc.add_paragraph('Ångest och sömnproblem sedan den falska våldtäktsanmälan', style='List Bullet')
-    doc.add_paragraph('Konstant stress från att vara instämd på över 540 000 kr på falska grunder', style='List Bullet')
-    doc.add_paragraph('Social skam och isolering – både i det svenska och arabiska samhället', style='List Bullet')
-    doc.add_paragraph('Påverkan på föräldraskap och familjeliv', style='List Bullet')
-    doc.add_paragraph('Rättslig grund: 5 kap 1 § skadeståndslagen – ersättning för personskada omfattar sveda och värk, dvs. fysiskt och psykiskt lidande av övergående natur.')
+    doc.add_paragraph('Mohammad har lidit allvarligt psykiskt lidande:')
+    doc.add_paragraph('Ångest och sömnproblem sedan falska våldtäktsanmälan', style='List Bullet')
+    doc.add_paragraph('Konstant stress från att vara instämd på 541 118 kr på falska grunder', style='List Bullet')
+    doc.add_paragraph('Social skam, påverkan på föräldraskap och familjeliv', style='List Bullet')
+    doc.add_paragraph('Rättslig grund: 5 kap 1 § SkL – personskada (sveda och värk).')
     
     doc.add_paragraph()
     p = doc.add_paragraph()
@@ -515,15 +495,11 @@ def create_svaromal_mohammad():
     doc.add_heading('SLUTORD', level=1)
     
     p = doc.add_paragraph()
-    p.add_run('Denna stämning är orättfärdig, grundlös och motiverad av hämnd.').bold = True
+    p.add_run('Stämningen är grundlös och motiverad av hämnd.').bold = True
     doc.add_paragraph()
-    doc.add_paragraph('Mohammad och Joumana är fast beslutna att försvara sig och kommer att driva detta mål till sitt slut. Heba Alhussien har:')
-    doc.add_paragraph('Gjort en falsk våldtäktsanmälan som polisen avfärdade', style='List Bullet')
-    doc.add_paragraph('Lämnat in en stämning baserad på lögner', style='List Bullet')
-    doc.add_paragraph('Dolt sin egen hawala-verksamhet', style='List Bullet')
-    doc.add_paragraph('Vägrat erkänna sin egen skuld på 35 000 kr', style='List Bullet')
+    doc.add_paragraph('Heba har gjort en falsk våldtäktsanmälan (avfärdad av polisen), lämnat in en stämning grundad på lögner, dolt sin hawala-verksamhet och vägrat erkänna sin egen skuld på 35 000 kr.')
     doc.add_paragraph()
-    doc.add_paragraph('Vi begär att rätten avslår käromålet i sin helhet och bifaller genkäromålet på 400 000 kr jämte ränta och rättegångskostnader.')
+    doc.add_paragraph('Vi hemställer att rätten avslår käromålet i sin helhet och bifaller genkäromålet på 400 000 kr jämte ränta och rättegångskostnader.')
     
     # Signature
     doc.add_paragraph()
@@ -753,10 +729,7 @@ def create_fullmakt():
     # SKÄL
     doc.add_heading('SKÄL TILL FULLMAKTEN', level=1)
     
-    doc.add_paragraph('Jag utfärdar denna fullmakt eftersom:')
-    doc.add_paragraph('1. Mohammad Sami Alsharef har fullständig kunskap om de faktiska omständigheterna i målet')
-    doc.add_paragraph('2. Jag hade minimal personlig inblandning i de ekonomiska arrangemangen med Heba Alhussien')
-    doc.add_paragraph('3. Det är praktiskt att ha en gemensam företrädare för båda svarandena')
+    doc.add_paragraph('Mohammad Sami Alsharef har fullständig kunskap om omständigheterna; Joumana hade minimal inblandning i de ekonomiska arrangemangen med Heba. Gemensam företrädare är praktiskt.')
     
     # UNDERSKRIFTER
     doc.add_heading('UNDERSKRIFTER', level=1)
@@ -843,7 +816,7 @@ def create_whatsapp_evidence():
     
     p = doc.add_paragraph()
     p.add_run('BEVISVÄRDE: AVGÖRANDE').bold = True
-    doc.add_paragraph('Heba erkänner skriftligen sin skuld till Mohammad – 2 månader före stämningen. Utgör grund för genkäromål.')
+    doc.add_paragraph('Heba erkänner skriftligen skuld till Mohammad 2 månader före stämningen. Grund för genkäromål.')
     
     # BEVIS B2
     doc.add_heading('BEVIS B2: Heba skyldig 60 000 kr (23 oktober 2024)', level=2)
@@ -860,7 +833,7 @@ def create_whatsapp_evidence():
     
     p = doc.add_paragraph()
     p.add_run('BEVISVÄRDE: STARKT').bold = True
-    doc.add_paragraph('Heba ifrågasätter beloppet men inte faktumet att hon är skyldig – bekräftar Mohammads bokföring.')
+    doc.add_paragraph('Heba ifrågasätter beloppet men inte att hon är skyldig – bekräftar Mohammads bokföring.')
     
     # BEVIS B3
     doc.add_heading('BEVIS B3: Hebas bokföring – $8 852 (juni 2023)', level=2)
@@ -877,7 +850,7 @@ def create_whatsapp_evidence():
     
     p = doc.add_paragraph()
     p.add_run('BEVISVÄRDE: STARKT').bold = True
-    doc.add_paragraph('Hebas egen bokföring visar att hon förde konto med Mohammad – typiskt för hawala-verksamhet, inte lån.')
+    doc.add_paragraph('Hebas egen bokföring – typiskt för hawala-verksamhet, inte lån.')
     
     # BEVIS B4
     doc.add_heading('BEVIS B4: Återbetalning via Swish (januari 2023)', level=2)
@@ -894,7 +867,7 @@ def create_whatsapp_evidence():
     
     p = doc.add_paragraph()
     p.add_run('BEVISVÄRDE: STÖDJANDE').bold = True
-    doc.add_paragraph('Pengar som togs via Swish (inkl. 30 000 kr till Joumana) återbetalades.')
+    doc.add_paragraph('Pengar via Swish (inkl. 30 000 kr till Joumana) återbetalades.')
     
     # BEVIS – Bank Norwegian
     doc.add_heading('BEVIS: "DITT Bank Norwegian" (17 september 2024)', level=2)
@@ -946,7 +919,7 @@ def create_whatsapp_evidence():
         '"Jag behöver 400 dollar i Damaskus"'
     )
     
-    doc.add_paragraph('Detta visar att Heba använde sitt svenska bankkonto för att betala i Sverige, medan motsvarande belopp betalades i Damaskus – exakt samma system som med Mohammad.')
+    doc.add_paragraph('Detta visar att Heba använde sitt svenska konto för att betala i Sverige medan motsvarande belopp levererades i Damaskus – identiskt system som med Mohammad.')
     
     # B7
     doc.add_heading('BEVIS B7: Stora belopp i syriska pund', level=2)
@@ -958,7 +931,7 @@ def create_whatsapp_evidence():
         '"Klart: 11 520 000 syriska pund" (bekräftelse av genomförd transaktion)'
     )
     
-    doc.add_paragraph('Ytterligare meddelanden: "عندي شي ٣٠ الف" = "Jag har cirka 30 000 [kronor]" och "٢٥٤٧٠ كرون" = "25 470 kr" (med fotografi på betalningsbevis).')
+    doc.add_paragraph('Ytterligare: "عندي شي ٣٠ الف" = "~30 000 kr" och "٢٥٤٧٠ كرون" = "25 470 kr" (med foto på betalningsbevis).')
     
     # B8
     doc.add_heading('BEVIS B8: USDT/kryptovaluta', level=2)
@@ -970,7 +943,7 @@ def create_whatsapp_evidence():
         '"Jag har USDT [kryptovaluta]"'
     )
     
-    doc.add_paragraph('Bekräftar att det handskrivna papperet som Heba åberopar var relaterat till USDT-handel, inte ett låneavtal.')
+    doc.add_paragraph('Bekräftar att det handskrivna papperet var relaterat till USDT-handel, inte låneavtal.')
     
     # B9
     doc.add_heading('BEVIS B9: Faktura- och Klarna-betalningar', level=2)
@@ -979,7 +952,7 @@ def create_whatsapp_evidence():
     doc.add_paragraph('Nordea Ropo Capital-fakturor', style='List Bullet')
     doc.add_paragraph('Övriga svenska fakturor', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('Samma mönster som med Mohammad: Heba betalade svenska fakturor, motprestationen skedde i Syrien via hawala.')
+    doc.add_paragraph('Samma mönster som med Mohammad: Heba betalade svenska fakturor, motprestationen skedde i Syrien.')
     
     # B10
     doc.add_heading('BEVIS B10: Ljudfiler och fotografier', level=2)
@@ -988,7 +961,7 @@ def create_whatsapp_evidence():
     doc.add_paragraph('80+ fotografier med betalningsbevis och kvitton', style='List Bullet')
     doc.add_paragraph('2 videor', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('Dessa kan spelas upp i rätten som bevisning om Hebas professionella penningväxlingsverksamhet.')
+    doc.add_paragraph('Kan spelas upp i rätten som bevisning om Hebas professionella verksamhet.')
     
     # SLUTSATS
     doc.add_heading('SLUTSATS', level=1)
@@ -1190,22 +1163,17 @@ def create_yttrande_ny_bevisning():
     doc.add_heading('NY BEVISNING SOM ÅBEROPAS', level=1)
     
     doc.add_heading('1. Abu Mohammad-chatten (B6–B10)', level=2)
-    doc.add_paragraph('WhatsApp-konversation mellan Heba Alhussien och "Abu Mohammad" (professionell penningväxlare/صراف) under perioden december 2023 – september 2024.')
+    doc.add_paragraph('WhatsApp-konversation mellan Heba och Abu Mohammad (penningväxlare/صراف), dec 2023–sep 2024.')
     doc.add_paragraph()
     doc.add_paragraph('Bevistema:').runs[0].bold = True
-    doc.add_paragraph('Att Heba bedrev systematisk hawala-verksamhet med professionella penningväxlare', style='List Bullet')
-    doc.add_paragraph('Att pengarna som påstås vara "lån" i själva verket var del av denna hawala-verksamhet', style='List Bullet')
-    doc.add_paragraph('Att identiskt transaktionsmönster (fakturor, Swish, dollarkurser) förekommer med Abu Mohammad', style='List Bullet')
+    doc.add_paragraph('Heba bedrev systematisk hawala med professionella penningväxlare', style='List Bullet')
+    doc.add_paragraph('Påstådda "lån" var del av denna verksamhet', style='List Bullet')
+    doc.add_paragraph('Identiskt transaktionsmönster (fakturor, Swish, dollarkurser) som med Mohammad', style='List Bullet')
     
     doc.add_paragraph()
     doc.add_paragraph('Chatten innehåller:')
-    doc.add_paragraph('518 meddelanden', style='List Bullet')
-    doc.add_paragraph('60+ ljudmeddelanden med transaktionsinstruktioner', style='List Bullet')
-    doc.add_paragraph('80+ fotografier med kvitton och betalningsbevis', style='List Bullet')
-    doc.add_paragraph('15+ PDF-fakturor (Klarna, Nordea Ropo Capital)', style='List Bullet')
-    doc.add_paragraph('Dollarväxlingar i Damaskus', style='List Bullet')
-    doc.add_paragraph('Transaktioner i syriska pund (11,5 miljoner SYP)', style='List Bullet')
-    doc.add_paragraph('USDT/kryptovalutatransaktioner', style='List Bullet')
+    doc.add_paragraph('518 meddelanden, 60+ ljud, 80+ foton, 15+ PDF-fakturor', style='List Bullet')
+    doc.add_paragraph('Dollarväxlingar, 11,5 milj. SYP, USDT/krypto', style='List Bullet')
     
     # VITTNE
     doc.add_heading('2. Abu Mohammad som vittne', level=2)
@@ -1213,8 +1181,7 @@ def create_yttrande_ny_bevisning():
     doc.add_paragraph()
     doc.add_paragraph('Bevistema:').runs[0].bold = True
     doc.add_paragraph('Hebas hawala-verksamhet och transaktionsflöden', style='List Bullet')
-    doc.add_paragraph('Hur dollarkurser och belopp fastställdes', style='List Bullet')
-    doc.add_paragraph('Att Heba använde sitt svenska konto för internationella transaktioner', style='List Bullet')
+    doc.add_paragraph('Dollarkurser, betalningsflöden och internationella transaktioner', style='List Bullet')
     
     # GENKÄROMÅL
     doc.add_heading('3. Genkäromål – 400 000 kr', level=2)
@@ -1235,7 +1202,7 @@ def create_yttrande_ny_bevisning():
     
     # TRANSLATION NOTE
     doc.add_heading('AUKTORISERAD ÖVERSÄTTNING', level=1)
-    doc.add_paragraph('I enlighet med rättens anvisningar kommer samtlig arabisk bevisning att förses med auktoriserad svensk översättning. Översättningarna beställs och levereras före fristen 2026-03-20.')
+    doc.add_paragraph('I enlighet med rättens anvisningar förses all arabisk bevisning med auktoriserad svensk översättning före fristen 2026-03-20.')
     
     # Signature
     doc.add_paragraph()
@@ -1356,43 +1323,34 @@ def create_genkaromal():
     # B. Kränkningsersättning
     doc.add_heading('B. Kränkningsersättning: 150 000 kr (falsk våldtäktsanmälan)', level=2)
     
-    doc.add_paragraph('1. Heba Alhussien anmälde Mohammad Sami Alsharef för våldtäkt till polisen. Hon påstod att Mohammad hade våldtagit henne upprepade gånger under en period av cirka 2 år.')
+    doc.add_paragraph('1. Heba anmälde Mohammad för våldtäkt – påstod upprepade övergrepp under ~2 år.')
     doc.add_paragraph()
-    doc.add_paragraph('2. Polisen lade ned utredningen inom cirka 10 dagar på grund av total brist på bevis. Anmälan var uppenbart falsk.')
+    doc.add_paragraph('2. Polisen lade ned inom ~10 dagar p.g.a. total brist på bevis.')
     doc.add_paragraph()
-    doc.add_paragraph('3. En falsk våldtäktsanmälan utgör falsk tillvitelse enligt 15 kap 7 § brottsbalken – att falskeligen tillvita någon brott inför myndighet.')
+    doc.add_paragraph('3. Falsk tillvitelse enl. 15 kap 7 § BrB. Kränkningsersättning enl. 2 kap 3 § SkL.')
     doc.add_paragraph()
-    doc.add_paragraph('4. Den som allvarligt kränker någon annan genom brott ska ersätta den skada som kränkningen innebär, enligt 2 kap 3 § skadeståndslagen (1972:207).')
+    doc.add_paragraph('4. Mohammad har lidit allvarlig kränkning:')
+    doc.add_paragraph('Extremt allvarlig anklagelse med risk för frihetsberövande (min. 2 års fängelse)', style='List Bullet')
+    doc.add_paragraph('Allvarlig skada på heder och rykte i både svenskt och arabiskt samhälle', style='List Bullet')
+    doc.add_paragraph('Långvarigt psykiskt lidande, påverkan på barn och familj', style='List Bullet')
+    doc.add_paragraph('Del av systematisk hämndkampanj', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('5. Mohammad har lidit allvarlig kränkning genom den falska anmälan:')
-    doc.add_paragraph('Våldtäkt är ett av de allvarligaste brotten i svensk lag – att falskeligen anklagas för detta utgör en extrem kränkning', style='List Bullet')
-    doc.add_paragraph('Anklagelsen innebar risk för frihetsberövande – våldtäkt ger minst 2 års fängelse', style='List Bullet')
-    doc.add_paragraph('Skada på heder och rykte – i både det svenska och arabiska samhället', style='List Bullet')
-    doc.add_paragraph('Långvarigt psykiskt lidande – ångest, sömnproblem, social isolering', style='List Bullet')
-    doc.add_paragraph('Påverkan på barn och familj', style='List Bullet')
-    doc.add_paragraph('Systematisk förföljelse – del av ett hämndmönster', style='List Bullet')
-    doc.add_paragraph()
-    doc.add_paragraph('6. Beloppet 150 000 kr är skäligt med hänsyn till kränkningens art och allvar. Jfr Brottsoffermyndighetens praxis: kränkningsersättning för falska anklagelser om allvarliga brott uppgår regelmässigt till 100 000–200 000 kr.')
+    doc.add_paragraph('5. 150 000 kr är skäligt. Jfr Brottsoffermyndighetens praxis: 100 000–200 000 kr för falska anklagelser om allvarliga brott.')
     
     # C. Rättegångsmissbruk
     doc.add_heading('C. Skadestånd: 100 000 kr (rättegångsmissbruk / falsk stämning)', level=2)
     
-    doc.add_paragraph('1. Heba har medvetet och lögnaktigt lämnat in en stämning på 541 118 kr baserad på påståenden som hon vet är falska.')
+    doc.add_paragraph('1. Heba har medvetet lämnat in en stämning på 541 118 kr baserad på påståenden hon vet är falska.')
     doc.add_paragraph()
-    doc.add_paragraph('2. Hon vet att inga lån existerat. Pengarna var del av en hawala-verksamhet (bevisat genom Abu Mohammad-chatten). Ändå påstår hon inför rätten att det var lån.')
+    doc.add_paragraph('2. Inga lån existerade – pengarna var del av hawala-verksamhet (bevisat genom Abu Mohammad-chatten).')
     doc.add_paragraph()
-    doc.add_paragraph('3. Hebas agerande utgör ett mönster av systematiskt missbruk av rättsväsendet:')
-    doc.add_paragraph('Först: Falsk våldtäktsanmälan till polisen (nedlagd)', style='List Bullet')
-    doc.add_paragraph('Sedan: Falsk stämning på 541 118 kr till tingsrätten', style='List Bullet')
-    doc.add_paragraph('Mönstret: När en falsk anklagelse misslyckas, gör Heba en ny', style='List Bullet')
+    doc.add_paragraph('3. Systematiskt mönster:')
+    doc.add_paragraph('Först: Falsk våldtäktsanmälan (nedlagd)', style='List Bullet')
+    doc.add_paragraph('Sedan: Falsk stämning på 541 118 kr', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('4. Rättslig grund: Ren förmögenhetsskada vid brott enligt 2 kap 2 § skadeståndslagen. Jfr osann partsutsaga enligt 15 kap 2 § brottsbalken.')
+    doc.add_paragraph('4. Rättslig grund: Ren förmögenhetsskada vid brott enl. 2 kap 2 § SkL. Jfr osann partsutsaga enl. 15 kap 2 § BrB.')
     doc.add_paragraph()
-    doc.add_paragraph('5. Beloppet 100 000 kr motiveras av:')
-    doc.add_paragraph('Det falska kravet uppgår till 541 118 kr – ett enormt fabricerat belopp', style='List Bullet')
-    doc.add_paragraph('Systematiskt mönster: först falsk våldtäktsanmälan, sedan falsk stämning', style='List Bullet')
-    doc.add_paragraph('Mohammad har tvingats lägga hundratals timmar på att försvara sig', style='List Bullet')
-    doc.add_paragraph('Rättsväsendet används medvetet som hämndvapen', style='List Bullet')
+    doc.add_paragraph('5. Beloppet 100 000 kr motiveras av fabricerat krav, systematiskt missbruk och hundratals timmars tvingat försvar.')
     
     # D. Ekonomisk skada
     doc.add_heading('D. Ekonomisk skada: 75 000 kr', level=2)
@@ -1432,13 +1390,11 @@ def create_genkaromal():
     doc.add_heading('E. Sveda och värk: 40 000 kr (psykiskt lidande)', level=2)
     
     doc.add_paragraph('Mohammad har lidit allvarligt psykiskt lidande till följd av Hebas systematiska förföljelse:')
-    doc.add_paragraph('Ångest och sömnproblem sedan den falska våldtäktsanmälan', style='List Bullet')
-    doc.add_paragraph('Konstant stress från att vara instämd på över 540 000 kr på falska grunder', style='List Bullet')
-    doc.add_paragraph('Social skam och isolering – i både det svenska och arabiska samhället', style='List Bullet')
-    doc.add_paragraph('Påverkan på föräldraskap och familjeliv – barnen har märkt av förälderns stress', style='List Bullet')
-    doc.add_paragraph('Risk för långsiktiga psykiska men', style='List Bullet')
+    doc.add_paragraph('Ångest och sömnproblem sedan falska våldtäktsanmälan', style='List Bullet')
+    doc.add_paragraph('Konstant stress från att vara instämd på 541 118 kr på falska grunder', style='List Bullet')
+    doc.add_paragraph('Social skam, påverkan på föräldraskap och familjeliv', style='List Bullet')
     doc.add_paragraph()
-    doc.add_paragraph('Rättslig grund: 5 kap 1 § skadeståndslagen (1972:207) – ersättning för personskada omfattar sveda och värk, dvs. fysiskt och psykiskt lidande av övergående natur.')
+    doc.add_paragraph('Rättslig grund: 5 kap 1 § SkL – ersättning för personskada (sveda och värk, psykiskt lidande av övergående natur).')
     
     # HEBAS MÖNSTER
     doc.add_heading('HEBAS MÖNSTER AV MISSBRUK AV RÄTTSVÄSENDET', level=1)
@@ -1467,7 +1423,7 @@ def create_genkaromal():
     
     doc.add_paragraph()
     p = doc.add_paragraph()
-    p.add_run('Heba använder rättsväsendet som vapen. När en falsk anklagelse misslyckas, gör hon en ny. Detta mönster ska få konsekvenser.').bold = True
+    p.add_run('Heba använder rättsväsendet systematiskt som vapen. Detta mönster ska få konsekvenser.').bold = True
     
     # BEVISNING
     doc.add_heading('BEVISNING', level=1)
@@ -1501,21 +1457,19 @@ def create_genkaromal():
     doc.add_heading('RÄTTSLIGA GRUNDER – SAMMANFATTNING', level=1)
     
     doc.add_paragraph('Skadeståndslagen (1972:207):').runs[0].bold = True
-    doc.add_paragraph('2 kap 2 § – Ren förmögenhetsskada orsakad genom brott', style='List Bullet')
-    doc.add_paragraph('2 kap 3 § – Kränkningsersättning vid allvarlig kränkning genom brott', style='List Bullet')
+    doc.add_paragraph('2 kap 2 § – Ren förmögenhetsskada vid brott', style='List Bullet')
+    doc.add_paragraph('2 kap 3 § – Kränkningsersättning vid allvarlig kränkning', style='List Bullet')
+    doc.add_paragraph('5 kap 1 § – Sveda och värk', style='List Bullet')
     
     doc.add_paragraph()
     doc.add_paragraph('Brottsbalken:').runs[0].bold = True
-    doc.add_paragraph('15 kap 7 § – Falsk tillvitelse (falskeligen anklaga någon för brott inför myndighet)', style='List Bullet')
-    doc.add_paragraph('15 kap 2 § – Osann partsutsaga (lämna osanna uppgifter i rättegång)', style='List Bullet')
+    doc.add_paragraph('15 kap 7 § – Falsk tillvitelse', style='List Bullet')
+    doc.add_paragraph('15 kap 2 § – Osann partsutsaga', style='List Bullet')
     
     doc.add_paragraph()
-    doc.add_paragraph('Räntelagen (1975:635):').runs[0].bold = True
-    doc.add_paragraph('6 § – Ränta från respektive skadetillfälle', style='List Bullet')
-    
-    doc.add_paragraph()
-    doc.add_paragraph('Rättegångsbalken:').runs[0].bold = True
-    doc.add_paragraph('18 kap – Rättegångskostnader (förlorande part ersätter vinnande parts kostnader)', style='List Bullet')
+    doc.add_paragraph('Övrigt:').runs[0].bold = True
+    doc.add_paragraph('6 § räntelagen (1975:635) – ränta från skadetillfälle', style='List Bullet')
+    doc.add_paragraph('18 kap RB – rättegångskostnader', style='List Bullet')
     
     # Signature
     doc.add_paragraph()
