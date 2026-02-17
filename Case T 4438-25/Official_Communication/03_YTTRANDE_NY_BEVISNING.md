@@ -108,17 +108,18 @@ Svarandena vidhåller sina yrkanden:
 
 ### Genkäromål
 
-Svarandena framställer härmed genkäromål mot käranden på **totalt 150 000 kr**:
+Svarandena framställer härmed genkäromål mot käranden på **totalt 400 000 kr**:
 
 | Post | Belopp | Rättslig grund |
 |------|--------|----------------|
 | A. Hebas skuld | 35 000 kr | Ensidigt skulderkännande (B1) 2024-12-29 |
-| B. Kränkningsersättning (falsk våldtäktsanmälan) | 50 000 kr | 2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse) |
-| C. Skadestånd (rättegångsmissbruk / falsk stämning) | 40 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga) |
-| D. Ekonomisk skada (översättning, arbetstid m.m.) | 25 000 kr | 2 kap 2 § SkL (ren förmögenhetsskada) |
-| **TOTALT** | **150 000 kr** | **+ ränta enl. 6 § räntelagen + rättegångskostnader** |
+| B. Kränkningsersättning (falsk våldtäktsanmälan) | 150 000 kr | 2 kap 3 § SkL via BrB 15:7 (falsk tillvitelse) |
+| C. Skadestånd (rättegångsmissbruk / falsk stämning) | 100 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 (osann partsutsaga) |
+| D. Ekonomisk skada (översättning, inkomstförlust m.m.) | 75 000 kr | 2 kap 2 § SkL (ren förmögenhetsskada) |
+| E. Sveda och värk (psykiskt lidande) | 40 000 kr | 5 kap 1 § SkL (personskada) |
+| **TOTALT** | **400 000 kr** | **+ ränta enl. 6 § räntelagen + rättegångskostnader** |
 
-Heba Alhussien har systematiskt missbrukat rättsväsendet: först en falsk våldtäktsanmälan (nedlagd inom ~10 dagar), sedan denna falska stämning. Mohammad har lidit allvarlig kränkning, ekonomisk skada och psykiskt lidande.
+Heba Alhussien har systematiskt missbrukat rättsväsendet: först en falsk våldtäktsanmälan (nedlagd inom ~10 dagar), sedan denna falska stämning. Mohammad har lidit allvarlig kränkning, ekonomisk skada, psykiskt lidande och sveda och värk.
 
 2. Svarandena förbehåller sig rätten att utöka genkäromålet med ytterligare krav.
 

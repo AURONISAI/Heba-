@@ -64,15 +64,16 @@
 | 100 000 kr Marginalen | **BESTRIDS** – Del av hawala | Abu Mohammad-bevis |
 | 60 723 kr ränta | **BESTRIDS** | Ingen skuld = ingen ränta |
 
-### Genkäromål (150 000 kr + ränta + rättegångskostnader):
+### Genkäromål (400 000 kr + ränta + rättegångskostnader):
 
 | Post | Belopp | Rättslig grund |
 |------|--------|----------------|
 | Hebas skuld | 35 000 kr | Ensidigt skulderkännande 2024-12-29 |
-| Kränkningsersättning (falsk våldtäktsanmälan) | 50 000 kr | 2 kap 3 § SkL via BrB 15:7 |
-| Skadestånd (rättegångsmissbruk) | 40 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 |
-| Ekonomisk skada | 25 000 kr | 2 kap 2 § SkL |
-| **TOTALT** | **150 000 kr** | **+ ränta + rättegångskostnader** |
+| Kränkningsersättning (falsk våldtäktsanmälan) | 150 000 kr | 2 kap 3 § SkL via BrB 15:7 |
+| Skadestånd (rättegångsmissbruk) | 100 000 kr | 2 kap 2 § SkL, jfr BrB 15:2 |
+| Ekonomisk skada | 75 000 kr | 2 kap 2 § SkL |
+| Sveda och värk (psykiskt lidande) | 40 000 kr | 5 kap 1 § SkL |
+| **TOTALT** | **400 000 kr** | **+ ränta + rättegångskostnader** |
 
 ---
 
